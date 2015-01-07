@@ -1,0 +1,19 @@
+{
+  "name": "General-Hobby-Stock-Checker",
+  "version": "1.0.0",
+  "description": "Scrapes and downloads currently in stock items from GeneralHobby.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/mikejr83/General-Hobby-Stock-Checker.git"
+  },
+  "author": "Michael Gardner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikejr83/General-Hobby-Stock-Checker/issues"
+  },
+  "homepage": "https://github.com/mikejr83/General-Hobby-Stock-Checker"
+}
