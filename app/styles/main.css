@@ -88,6 +88,10 @@ body {
   }
 }
 
-UL LI IMG {
+.productImage {
 	width: 240px;
+}
+
+.noProducts {
+	margin-bottom: 15px;
 }

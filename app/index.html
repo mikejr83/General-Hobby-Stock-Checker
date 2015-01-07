@@ -65,18 +65,43 @@
         <p class="lead">Find out what you can spend your money on at GeneralHobby.com.</p>
       </div>
 	  
-	  <ul ng-show="products" class="list-group">
+	  <table ng-cloak ng-show="products" class="table table-striped">
+		<thead>
+			<tr>
+				<th>&nbsp;</th>
+				<th>Product</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="product in products | filter: {soldOut: false} | orderBy:orderProduct">
+				<td>
+					<a ng-href="{{product.pageUrl}}" target="_blank"><img class="productImage" ng-src="{{product.imageUrl}}" /></a>
+				</td>
+				<td>
+					<a ng-href="{{product.pageUrl}}" target="_blank">{{product.name}}</a>
+				</td>
+				<td>
+					<s ng-show="product.specialPrice">{{product.regularPrice}}</s>
+					<span ng-show="product.specialPrice">{{product.specialPrice}}</span>
+					<span ng-hide="product.specialPrice">{{product.regularPrice}}</span>
+				</td>
+			</tr>
+		</tbody>
+	  </table>
+	  
+	  <!-- <ul ng-cloak ng-show="products" class="list-group">
 		<li class="list-group-item" ng-repeat="product in products | filter: {soldOut: false} | orderBy:orderProduct">
-			<a ng-href="{{product.pageUrl}}"><img ng-src="{{product.imageUrl}}" /></a>
+			<a ng-href="{{product.pageUrl}}"><img class="productImage" ng-src="{{product.imageUrl}}" /></a>
 		
 			<a ng-href="{{product.pageUrl}}">{{product.name}}</a>
 			<s ng-show="product.specialPrice">{{product.regularPrice}}</s>
 			<span ng-show="product.specialPrice">{{product.specialPrice}}</span>
 			<span ng-hide="product.specialPrice">{{product.regularPrice}}</span>
 		</li>
-	</ul>
-	<div ng-hide="products">
-		
+	</ul> -->
+	<div ng-cloak ng-hide="products" class="noProducts">
+		There are no products. Have you run <code>node index.js</code>?
 	</div>
 
       <div class="footer">
