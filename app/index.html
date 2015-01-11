@@ -68,7 +68,7 @@
       
       
 	  
-	  <div ng-cloak ng-show="products">
+	  <div ng-cloak ng-show="data.products">
 		  <div class="panel panel-default">
 			<div class="panel-heading">Filter</div>
 			<div class="panel-body">
@@ -85,7 +85,7 @@
 		  </div>
 		  
 		  <div>
-			<b>Total:</b> {{filtered.length}}
+			<b>Total:</b> {{filtered.length}} found on {{data.date | date:'medium'}}
 		  </div>
 		  
 		  <table class="table table-striped">
@@ -97,7 +97,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr ng-repeat="product in filtered = (products | filter:filterList) | orderBy:orderProduct:sortReverse">
+				<tr ng-repeat="product in filtered = (data.products | filter:filterList) | orderBy:orderProduct:sortReverse">
 					<td>
 						<a ng-href="{{product.pageUrl}}" target="_blank"><img class="productImage" ng-src="{{product.imageUrl}}" /></a>
 					</td>
@@ -114,11 +114,11 @@
 		  </table>
 		  
 		<div>
-		<b>Total:</b> {{filtered.length}}
+		<b>Total:</b> {{filtered.length}} found on {{data.date}}
 		</div>
 	 </div>
 	  
-	<div ng-cloak ng-hide="products" class="noProducts">
+	<div ng-cloak ng-hide="data.products" class="noProducts">
 		There are no products. Have you run <code>node index.js</code>?
 	</div>
 

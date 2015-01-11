@@ -1,3 +1,5 @@
+'use strict';
+
 var colors = require('colors');
 var jsdom = require('jsdom');
 var jquery = require('jquery');
@@ -16,49 +18,62 @@ colors.setTheme({
   error: 'red'
 });
 
-var $DASH = '--------------------------------------------------------------------------------';
+var $Dashes = '--------------------------------------------------------------------------------';
 
 var log = function(message) {
-	if(message)
+	if(message) {
 		console.log(message.toString().info);
+	}
 };
 
 var error = function(message) {
-	if (message)
+	if (message) {
 		console.error(message.toString().error);
+	}
 };
 
+/*
 var warn = function(message) {
-	if (message)
-		console.warn(message.toString().warn);
+	if (message) {
+		console.warn(message.toString().warn); //jshint ignore:line
+	}
 };
+*/
 
 var bigInfo = function(message) {
-	message = '\n' + $DASH + '\n' + message + '\n' + $DASH + '\n';
+	message = '\n' + $Dashes + '\n' + message + '\n' + $Dashes + '\n';
 	log(message);
 };
 
-var $PROCESSED_COUNT = 0;
-var $PROCESSED_PAGE = 1;
-var $BASE_URL = 'http://www.generalhobby.com/airplanes-browse-airplane-c-21_37.html';
-var $TOTAL_AVAILABLE = 0;
-var $JSON_DATA = [];
+var $ProcessedCount = 0;
+var $ProcessedPage = 1;
+var $BaseURL = 'http://www.generalhobby.com/airplanes-browse-airplane-c-21_37.html';
+var $TotalAvailable = 0;
+var $JSONData = [];
 
 var dumpJSONInfo = function() {
-	fs.writeFile('app/scripts/data.json', 'var $DATA = ' + JSON.stringify($JSON_DATA, null, 4) + ';', function(e) {
-		if (e)
+	var jsonData = {
+		date: new Date(),
+		products: $JSONData
+	};
+	
+	fs.writeFile('app/scripts/data.json', 'var $DATA = ' + JSON.stringify(jsonData, null, 4) + ';', function(e) {
+		if (e) {
 			error(e);
-		else
+		}
+		else {
 			log('Data saved!');
+		}
 	});
 };
 
-var $CONFIG = {
-	url: $BASE_URL,
+var $Config = {
+	url: $BaseURL,
 	scripts: null,
 	done: function(errors, window) {
-		if (errors)
+		if (errors) {
 			error(errors);
+		}
 			
 		var $ = jquery(window);
 		
@@ -69,7 +84,7 @@ var $CONFIG = {
 		
 		log('Processing ' + listingItems.length + ' items');
 		
-		listingItems.each(function(listingItem) {
+		listingItems.each(function() {
 			var itemText = $('DIV.product-shop H5 A:last-child', this).text();
 			var pageUrl = $('DIV.product-image A', this).attr('href');
 			var imageUrl = $('DIV.product-image A IMG', this).attr('src');
@@ -93,34 +108,34 @@ var $CONFIG = {
 				item.regularPrice = regularPriceElement.text();
 			}			
 			
-			$JSON_DATA.push(item);
+			$JSONData.push(item);
 			
 			if ($('DIV.product-shop SPAN:contains("Sold Out")', this).length) {
 				return;
 			}
 			else {
 				item.soldOut = false;
-				$TOTAL_AVAILABLE++;
+				$TotalAvailable++;
 				log(itemText);
 			}
 		});
 		
-		$PROCESSED_COUNT += listingItems.length;
+		$ProcessedCount += listingItems.length;
 		
-		bigInfo('Completed processing of ' + $PROCESSED_COUNT + ' items!');
+		bigInfo('Completed processing of ' + $ProcessedCount + ' items!');
 		
-		if ($PROCESSED_COUNT < totalCount) {
-			var page = $BASE_URL + '?page=' + (++$PROCESSED_PAGE).toString() + '&sort=5a';
+		if ($ProcessedCount < totalCount) {
+			var page = $BaseURL + '?page=' + (++$ProcessedPage).toString() + '&sort=5a';
 			log(page);
-			$CONFIG.url = page;
+			$Config.url = page;
 			
-			jsdom.env($CONFIG);
+			jsdom.env($Config);
 		}
 		else {
 			dumpJSONInfo();
-			bigInfo('Processed ' + $TOTAL_AVAILABLE + ' available items!');
+			bigInfo('Processed ' + $TotalAvailable + ' available items!');
 		}
 	}
-}
+};
 
-jsdom.env($CONFIG);
+jsdom.env($Config);

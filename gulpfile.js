@@ -3,6 +3,7 @@
 // generated on 2015-01-07 using generator-gulp-webapp 0.2.0
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
+var exec = require('gulp-exec');
 
 gulp.task('styles', function () {
   return gulp.src('app/styles/main.css')
@@ -79,6 +80,30 @@ gulp.task('connect', function () {
 
 gulp.task('serve', ['connect', 'watch'], function () {
   require('opn')('http://localhost:9000');
+});
+
+gulp.task('jshintdata', function () {	
+	return gulp.src('index.js')
+    .pipe($.jshint('.jshintrc-node'))
+    .pipe($.jshint.reporter('jshint-stylish'))
+    .pipe($.jshint.reporter('fail'));
+});
+
+gulp.task('getdata', ['jshintdata'], function() {
+	var options = {
+		continueOnError: false, // default = false, true means don't emit error event
+		pipeStdout: false, // default = false, true means stdout is written to file.contents
+		customTemplatingThing: "test" // content passed to gutil.template()
+	  };
+	  var reportOptions = {
+		  err: true, // default = true, false means don't write err
+		  stderr: true, // default = true, false means don't write stderr
+		  stdout: true // default = true, false means don't write stdout
+	  }
+  
+	return gulp.src('index.js')
+		.pipe(exec('node <%= file.path %>', options))
+		.pipe(exec.reporter(reportOptions));
 });
 
 // inject bower components

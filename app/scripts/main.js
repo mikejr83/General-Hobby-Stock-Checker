@@ -2,7 +2,7 @@
 var productApp = angular.module('productApp', []); // jshint ignore:line
 		
 productApp.controller('ProductsController', function ($scope) {
-	$scope.products = $DATA || []; // jshint ignore:line
+	$scope.data = $DATA || {date: null, products:[]}; // jshint ignore:line
 	$scope.productNameFilter = '';
 	$scope.showSoldOut = false;
 	$scope.sortReverse = false;
