@@ -1,6 +1,6 @@
 var colors = require('colors');
 var jsdom = require('jsdom');
-var jquery = require('jQuery');
+var jquery = require('jquery');
 var fs = require('fs');
 
 colors.setTheme({
