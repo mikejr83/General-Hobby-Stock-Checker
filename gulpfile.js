@@ -22,9 +22,9 @@ gulp.task('jshint', function () {
 gulp.task('html', ['styles'], function () {
   var assets = $.useref.assets({searchPath: '{.tmp,app}'});
 
-  return gulp.src('app/*.html', 'app/!indexgit.html')
+  return gulp.src(['app/*.html', '!app/indexgit.html'], {base:'app/'})
     .pipe(assets)
-    .pipe($.if('*.js', $.uglify()))
+    .pipe($.if('*.js', $.uglify({mangle: false})))
     .pipe($.if('*.css', $.csso()))
     .pipe(assets.restore())
     .pipe($.useref())
@@ -37,7 +37,7 @@ gulp.task('githtml', ['styles'], function () {
 
   return gulp.src(['app/*.html', '!app/index.html'], {base:'app/'})
     .pipe(assets)
-    .pipe($.if('*.js', $.uglify()))
+    .pipe($.if('*.js', $.uglify({mangle: false})))
     .pipe($.if('*.css', $.csso()))
     .pipe(assets.restore())
     .pipe($.useref())
