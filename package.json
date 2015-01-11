@@ -51,5 +51,8 @@
     "serve-static": "^1.4.0",
     "wiredep": "^2.0.0",
     "gulp-exec": "~2.1.1"
+  },
+  "dependencies": {
+    "gulp-rename": "~1.2.0"
   }
 }

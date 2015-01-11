@@ -4,6 +4,7 @@
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var exec = require('gulp-exec');
+var rename = require('gulp-rename');
 
 gulp.task('styles', function () {
   return gulp.src('app/styles/main.css')
@@ -21,7 +22,20 @@ gulp.task('jshint', function () {
 gulp.task('html', ['styles'], function () {
   var assets = $.useref.assets({searchPath: '{.tmp,app}'});
 
-  return gulp.src('app/*.html')
+  return gulp.src('app/*.html', 'app/!indexgit.html')
+    .pipe(assets)
+    .pipe($.if('*.js', $.uglify()))
+    .pipe($.if('*.css', $.csso()))
+    .pipe(assets.restore())
+    .pipe($.useref())
+    .pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('githtml', ['styles'], function () {
+  var assets = $.useref.assets({searchPath: '{.tmp,app}'});
+
+  return gulp.src(['app/*.html', '!app/index.html'], {base:'app/'})
     .pipe(assets)
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.csso()))
@@ -132,6 +146,12 @@ gulp.task('watch', ['connect'], function () {
 
 gulp.task('build', ['jshint', 'html', 'images', 'fonts', 'extras'], function () {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
+});
+
+gulp.task('buildgit', ['getdata', 'jshint', 'githtml', 'images', 'fonts', 'extras'], function () {
+  return gulp.src('dist/indexgit.html')
+	.pipe(rename('index.html'))
+	.pipe(gulp.dest('./dist'));
 });
 
 gulp.task('default', ['clean'], function () {

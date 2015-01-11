@@ -13,14 +13,15 @@ productApp.controller('ProductsController', function ($scope) {
 		return val;
 	};
 	
-	$scope.filterList = function(actual, expected) {
+	$scope.filterList = function(actual) {
 		var show = false;
 		
-		if((!actual.soldOut || $scope.showSoldOut) && $scope.productNameFilter && $scope.productNameFilter != '') {			
+		if((!actual.soldOut || $scope.showSoldOut) && $scope.productNameFilter && $scope.productNameFilter != '') {			 //jshint ignore:line
 			show = actual.name.toLowerCase().indexOf($scope.productNameFilter.toLowerCase()) > -1;
 		}
-		else
+		else {
 			show = (!actual.soldOut || $scope.showSoldOut);
+		}
 			
 		return show;
 	};
