@@ -1,0 +1,2869 @@
+var $DATA = {
+    "date": "2015-01-11T23:12:10.028Z",
+    "products": [
+        {
+            "name": "Skyline MXS-R 30CC A 75''/1915mm Aerobatic RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/mxs-r-skyline-a-240-a.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-mxsr-30cc-751915mm-aerobatic-airplane-p-472.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$339.00",
+            "specialPrice": "$225.97"
+        },
+        {
+            "name": "Goldwing ARF-Brand SBach 342 71'' 3D Electric RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-71in-black-21-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-sbach-electric-airplane-p-486.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$209.97"
+        },
+        {
+            "name": "Goldwing ARF SU-26 26CC 70''/1780mm Gas RC Airplane C",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/su-26-26cc-c-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-su26-26cc-701780mm-airplane-p-852.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$329.00",
+            "specialPrice": "$219.97"
+        },
+        {
+            "name": "Goldwing ARF Sukhoi SU-26 26CC 70''/1780mm Gas RC Airplane A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/arf-su-26-a-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-sukhoi-su26-26cc-701780mm-airplane-p-542.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$329.00",
+            "specialPrice": "$219.97"
+        },
+        {
+            "name": "Goldwing ARF Sukhoi SU-26 26CC 70''/1780mm Gas RC Airplane B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/gw-arf-su-26-26cc-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-sukhoi-su26-26cc-701780mm-airplane-p-351.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$329.00",
+            "specialPrice": "$219.97"
+        },
+        {
+            "name": "Flyfly Super Chipmunk 63.8'' Fiber Glass Electric RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/chipmunk-52-63-white-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/flyfly-super-chipmunk-fiber-glass-electric-airplane-p-104.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$189.00",
+            "specialPrice": "$139.97"
+        },
+        {
+            "name": "LX F-22 Raptor 70mm EDF RC Jet Airplane With Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lx-f-22-b-12-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/raptor-70mm-airplane-with-retracts-version-p-811.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$159.00",
+            "specialPrice": "$99.97"
+        },
+        {
+            "name": "LX F-22 Twin 70mm EDF RC Jet With Retracts ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-22-lx-twin-edf-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/twin-70mm-with-retracts-p-679.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$399.00",
+            "specialPrice": "$369.97"
+        },
+        {
+            "name": "LX F-22 Twin 70mm EDF RC Jet With Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-22-lx-twin-edf-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/twin-70mm-with-retracts-version-p-819.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$239.00",
+            "specialPrice": "$179.99"
+        },
+        {
+            "name": "Skyline Sukhoi Su-26 70 60'' Aerobatic RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/su-26-70-skyline-15a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sukhoi-su26-aerobatic-airplane-p-838.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$229.00",
+            "specialPrice": "$155.97"
+        },
+        {
+            "name": "Skyline Yak 55M 70 60'' Aerobatic RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55m-70-a-skyline-39-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-aerobatic-airplane-p-822.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$229.00",
+            "specialPrice": "$157.99"
+        },
+        {
+            "name": "Skyline Yak 55M 70 60'' Aerobatic RC Airplane ARF B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55-70-b-30a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-aerobatic-airplane-p-845.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$229.00",
+            "specialPrice": "$157.99"
+        },
+        {
+            "name": "Skyline Sbach 342 70 60'' Aerobatic RC Airplane C",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-70-c-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-aerobatic-airplane-p-514.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$156.97"
+        },
+        {
+            "name": "Skyline SBach 342 70 60'' Aerobatic RC Airplane Thunderbolt A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-70-w-sky-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-aerobatic-airplane-thunderbolt-p-404.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$156.97"
+        },
+        {
+            "name": "Smoove 63''/1600mm F3A Electric RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f3a-63in-30cc-23-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/smoove-631600mm-electric-airplane-p-846.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$239.97"
+        },
+        {
+            "name": "PBY Catalina 2.4G Brushless/LIPO Electric RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/pby-catalina-2.jpg",
+            "pageUrl": "http://www.generalhobby.com/catalina-brushlesslipo-electric-airplane-p-304.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$259.00",
+            "specialPrice": "$189.97"
+        },
+        {
+            "name": "LX T-50 Twin 70mm EDF RC Jet Fighter With Metal Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/t-50-grey-6a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/twin-70mm-fighter-with-metal-retracts-version-p-843.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$269.00",
+            "specialPrice": "$195.97"
+        },
+        {
+            "name": "Skyline Corvus 30CC 74''/1880mm 3D Aerobatic RC Airplane ARF A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/corvus-30cc-a-22-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-corvus-30cc-741880mm-aerobatic-airplane-p-844.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline Corvus 30CC 74''/1880mm 3D Aerobatic RC Airplane ARF B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/corvus-30cc-b-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-corvus-30cc-741880mm-aerobatic-airplane-p-842.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$239.97"
+        },
+        {
+            "name": "Skyline Edge 540 30CC 70''/1778mm A Aerobatic RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-71-in-a-16-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-edge-30cc-701778mm-aerobatic-airplane-p-471.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$329.00",
+            "specialPrice": "$229.97"
+        },
+        {
+            "name": "Skyline Raven 30CC 74'' 3D Aerobatic RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/raven-30cc-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-raven-30cc-aerobatic-airplane-p-821.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing SBD-5 Dauntless 52''/1330mm Electric RC Plane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbd-5-fw-8-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-sbd5-dauntless-521330mm-electric-plane-p-536.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$299.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "LX F-16 Fighting Falcon 360 Degree Vector 70mm EDF Super Scale RC Jet Kit Version With Retracts",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-lx-8-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fighting-falcon-degree-vector-70mm-super-scale-version-with-retracts-p-818.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$189.00",
+            "specialPrice": "$107.99"
+        },
+        {
+            "name": "Goldwing ARF Slick 540 30CC 74''/1880mm Gas/Electric RC Airplane B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/slick-30cc-gw-b-15-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-slick-30cc-741880mm-gaselectric-airplane-p-851.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$429.00",
+            "specialPrice": "$319.97"
+        },
+        {
+            "name": "Goldwing Slick 540 30CC 74''/1880mm Gas/Electric RC Airplane A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/slick-30cc-gw-a-7-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-slick-30cc-741880mm-gaselectric-airplane-p-850.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$429.00",
+            "specialPrice": "$319.97"
+        },
+        {
+            "name": "LX F4F Wildcat 47''/1200mm EPO Electric RC Airplane Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f4f-blue-lx-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/wildcat-471200mm-electric-airplane-version-p-820.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$179.00",
+            "specialPrice": "$125.97"
+        },
+        {
+            "name": "LX F-16 Fighting Falcon 360 Degree Vector 70mm EDF Super Scale RC JET ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-lx-8-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fighting-falcon-degree-vector-70mm-super-scale-p-528.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$259.00",
+            "specialPrice": "$219.97"
+        },
+        {
+            "name": "Goldwing ARF Brand Extra 260 26CC 70in RC Airplane ARF C",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/extra-260-26cc-c-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-brand-extra-26cc-70in-airplane-p-504.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$299.00",
+            "specialPrice": "$209.97"
+        },
+        {
+            "name": "Goldwing ARF-Brand MX-2 72'' Electric RC Airplane ARF Green A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/mx-2-72in-green-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-electric-airplane-green-p-540.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$225.97"
+        },
+        {
+            "name": "Skyline SBach 342 30CC 73'' B Aerobatic RC Airplane Orange",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-30cc-b-skyline-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-30cc-aerobatic-airplane-orange-p-656.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$225.97"
+        },
+        {
+            "name": "Skyline SBach 342 Thunderbolt 30CC 73'' Aerobatic RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/skyline-sbach-342-30cc-a-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-thunderbolt-30cc-aerobatic-airplane-p-418.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.99",
+            "specialPrice": "$229.97"
+        },
+        {
+            "name": "Goldwing ARF-Brand Sukhoi Su-26 30CC 73.5'' RC Airplane A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/su-26-30cc-v2-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-sukhoi-su26-30cc-airplane-p-576.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$239.97"
+        },
+        {
+            "name": "Goldwing ARF-Brand Sukhoi Su-26 30CC 73.5'' RC Airplane B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/goldwing-arf-su-26-30cc-2-b-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-sukhoi-su26-30cc-airplane-p-577.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$269.97"
+        },
+        {
+            "name": "Skyline MX-2 50 57'' 3D Aerobatic Electric/Nitro RC Airplane A Green",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/mx2-50-3d-green-1a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-aerobatic-electricnitro-airplane-green-p-359.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$139.97"
+        },
+        {
+            "name": "Skyline MX-2 30CC 73'' 3D Aerobatic RC Airplane Green A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/skyline-rc-mx2-30cc-green-top-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-30cc-aerobatic-airplane-green-p-419.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.99",
+            "specialPrice": "$225.97"
+        },
+        {
+            "name": "Freewing 6-CH F-16 Fighting Falcon 360 Full Axis Vector Thrust Aerobatic RC EDF Fighter Jet PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-freewing-red-7-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-fighting-falcon-full-axis-vector-thrust-aerobatic-fighter-p-516.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$135.97"
+        },
+        {
+            "name": "Skyline Raven 30CC 74'' 3D Aerobatic RC Airplane ARF Pre-hinged Carbon Fiber Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/raven-30cc-skyline-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-raven-30cc-aerobatic-airplane-prehinged-carbon-fiber-version-p-470.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$399.00",
+            "specialPrice": "$275.99"
+        },
+        {
+            "name": "LX SR71 Blackbird Dual 64mm EDF Jet With Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sr71-lx-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/sr71-blackbird-dual-64mm-with-retracts-version-p-812.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$169.00",
+            "specialPrice": "$119.97"
+        },
+        {
+            "name": "LX B2 Stealth Bomber Dual 64mm EDF Jet With Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/b2-lx-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/stealth-bomber-dual-64mm-with-retracts-version-p-815.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$147.99"
+        },
+        {
+            "name": "B-17 \"Flying Fortress\" 72''/1875mm Brushless Warbird with Worm Drive Retract System PNP Silver",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/jd-b-17-silver-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/flying-fortress-721875mm-brushless-warbird-with-worm-drive-retract-system-silver-p-289.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$299.97"
+        },
+        {
+            "name": "Freewing 6-CH F-16 Fighting Falcon 360 Full Axis Vector Thrust Aerobatic RC EDF Fighter Jet PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-fw-1102-7-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-fighting-falcon-full-axis-vector-thrust-aerobatic-fighter-p-515.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$135.97"
+        },
+        {
+            "name": "Freewing AT-6 Texan 57''/1450mm Grey PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/at-6-grey-fw-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-texan-571450mm-grey-p-537.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$299.00",
+            "specialPrice": "$179.99"
+        },
+        {
+            "name": "FREEWING B-17 \"Flying Fortress\" 63''/1600mm Brushless Warbird with Worm Drive Retract System New Color Scheme - Memphis Belle",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-b-17-brown-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-flying-fortress-631600mm-brushless-warbird-with-worm-drive-retract-system-color-scheme-memphis-belle-p-288.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$308.72",
+            "specialPrice": "$269.99"
+        },
+        {
+            "name": "LX F-117 Nighthawk 70mm EDF With Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-117-lx-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/f117-nighthawk-70mm-with-retracts-version-p-814.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$169.00",
+            "specialPrice": "$119.97"
+        },
+        {
+            "name": "LX F-18 Twin 70mm EDF Jolly Rogers RC Jet With Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/F18-Jolly-Roger-7-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/twin-70mm-jolly-rogers-with-retracts-version-p-823.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$489.00",
+            "specialPrice": "$349.97"
+        },
+        {
+            "name": "LX F-35 70mm EDF 360 Vector RC Jet With Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-35-lx-15-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/70mm-vector-with-retracts-version-p-817.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$180.00",
+            "specialPrice": "$129.97"
+        },
+        {
+            "name": "LX F-35 70mm EDF 360 Vector RC Jet With Retracts PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-35-lx-13-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/70mm-vector-with-retracts-p-527.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$299.00",
+            "specialPrice": "$229.97"
+        },
+        {
+            "name": "LX SU-47 Berkut Twin 70mm EDF 360 Degree RC Jet With Retracts Kit Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/su47-lx-12-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/su47-berkut-twin-70mm-degree-with-retracts-version-p-816.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$149.97"
+        },
+        {
+            "name": "LX SU-47 Berkut Twin 70mm EDF 360 Degree RC Jet With Retracts PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/su47-lx-12-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/su47-berkut-twin-70mm-degree-with-retracts-p-526.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$299.97"
+        },
+        {
+            "name": "P-51 Mustang 1400mm/55.1'' Electric RC Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-p-51-758-1-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mustang-1400mm551-electric-airplane-p-348.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$149.97"
+        },
+        {
+            "name": "Skyline MX-2 50 57'' B Aerobatic RC Plane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/mx-2-50-b-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-aerobatic-plane-p-661.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$139.97"
+        },
+        {
+            "name": "Skyline Slick 540 50E 55''/1400mm A 3D Aerobatic RC Airplane ARF Pre-Hinged Carbon Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/slick-50-a-skiline.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-slick-551400mm-aerobatic-airplane-prehinged-carbon-version-p-633.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$239.00",
+            "specialPrice": "$159.99"
+        },
+        {
+            "name": "Skyway Sbach 342 30CC 73'' Carbon Fiber RC Airplane Orange B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-30cc-arf-c-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyway-sbach-30cc-carbon-fiber-airplane-orange-p-560.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$399.00",
+            "specialPrice": "$269.97"
+        },
+        {
+            "name": "Freewing AT-6 Texan 57''/1450mm Yellow PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/at-6-fw-yellow-9-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-texan-571450mm-yellow-p-538.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$299.00",
+            "specialPrice": "$179.99"
+        },
+        {
+            "name": "Freewing Stinger-64 64mm Electric RC EDF Jet Electric R/C RC Airplane Plane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-stinger-red-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-stinger64-64mm-electric-electric-airplane-plane-p-299.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$119.97",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF-Brand Extra 260 50E 55'' Aerobatic Electric RC Airplane A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/extra-260-50e-a-arf-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-extra-aerobatic-electric-airplane-p-478.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$209.00",
+            "specialPrice": "$145.97"
+        },
+        {
+            "name": "LX F4F Wildcat 47''/1200mm EPO Electric RC Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f4f-blue-lx-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/wildcat-471200mm-electric-airplane-p-529.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$239.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "Evolution 2 Meter 77.5'' F3A RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/e-evolution-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/evolution-meter-airplane-p-463.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$339.00",
+            "specialPrice": "$289.97"
+        },
+        {
+            "name": "LX B2 Stealth Bomber Dual 64mm EDF Jet With Retracts PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/b1-lx-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/stealth-bomber-dual-64mm-with-retracts-p-525.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$299.00",
+            "specialPrice": "$269.97"
+        },
+        {
+            "name": "Skyway Sbach 300 30CC 73'' Carbon Fiber RC Airplane C",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach 300-30cc-skysun-c-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyway-sbach-30cc-carbon-fiber-airplane-p-735.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$399.00",
+            "specialPrice": "$259.99"
+        },
+        {
+            "name": "Skyline SBach 342 30CC 73''/1860mm Pre-hinged Carbon Fiber Aerobatic RC Airplane B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach -342-30cc-b-skyline-cfa-240.JPG",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-30cc-731860mm-prehinged-carbon-fiber-aerobatic-airplane-p-641.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$399.00",
+            "specialPrice": "$299.97"
+        },
+        {
+            "name": "F-16 Fighting Falcon 64mm EDF Electric RC Jet Fighter Airplane Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-64mm-starmax-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fighting-falcon-64mm-electric-fighter-airplane-readytofly-p-543.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$279.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "F-16 Fighting Falcon 64mm EDF Electric RC Jet Fighter Airplane Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-64mm-starmax-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fighting-falcon-64mm-electric-fighter-airplane-readytofly-p-543.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$279.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "Lanyu ASW28 2.6m/103'' Unibody Scale RC Glider (759-1) Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-759-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lanyu-asw28-26m103-unibody-scale-glider-7591-readytofly-p-826.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$259.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "LX F-117 Nighthawk 70mm EDF With Retracts PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-117-lx-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/f117-nighthawk-70mm-with-retracts-p-524.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$259.00",
+            "specialPrice": "$219.97"
+        },
+        {
+            "name": "LX SR71 Blackbird Dual 64mm EDF Jet With Retracts PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sr71-lx-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/sr71-blackbird-dual-64mm-with-retracts-p-523.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$279.00",
+            "specialPrice": "$209.97"
+        },
+        {
+            "name": "LX SR71 Blackbird Dual 64mm EDF Jet With Retracts RTF Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sr71-lx-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/sr71-blackbird-dual-64mm-with-retracts-readytofly-p-813.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$339.00",
+            "specialPrice": "$279.99"
+        },
+        {
+            "name": "Skyline Extra 300LP 30CC 73'' 3D Aerobatic RC Airplane Carbon Version A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/extra-300lp-30cc-a-carbon-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-extra-300lp-30cc-aerobatic-airplane-carbon-version-p-510.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$359.00",
+            "specialPrice": "$289.97"
+        },
+        {
+            "name": "Skyline SBach 342 30CC 73''/1860mm Pre-hinged Carbon Fiber Aerobatic RC Airplane A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach -342-30cc-a-skyline-cfa-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-30cc-731860mm-prehinged-carbon-fiber-aerobatic-airplane-p-642.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$399.00",
+            "specialPrice": "$299.97"
+        },
+        {
+            "name": "Evolution 2 Meter 77.5'' F3A RC Airplane B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/evolution-f3a-b-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/evolution-meter-airplane-p-594.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$339.00",
+            "specialPrice": "$289.97"
+        },
+        {
+            "name": "Goldwing Sbach 342 30CC V3 All Carbon Aerobatic RC Airplane Version 3 Orange B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-30cc-gw-v3-b-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-sbach-30cc-carbon-aerobatic-airplane-version-orange-p-269.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$399.92",
+            "specialPrice": "$339.97"
+        },
+        {
+            "name": "Ultimate Bipe Electric RC Airplane 30'' ARF Blue",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-ep-30-blue-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/ultimate-bipe-electric-airplane-blue-p-73.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$89.88",
+            "specialPrice": "$76.92"
+        },
+        {
+            "name": "F-35 64mm Electric Ducted Fan Radio Control Jet Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-35-starmax-64mm-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/64mm-electric-ducted-radio-control-readytofly-p-544.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$269.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "F-35 64mm Electric Ducted Fan Radio Control Jet Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-35-starmax-64mm-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/64mm-electric-ducted-radio-control-readytofly-p-544.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$269.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "F/A-18E Hornet 64mm EDF Electric R/C RC Jet Airplane Plane Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-18-grey-starmax-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fa18e-hornet-64mm-electric-airplane-plane-readytofly-p-604.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$199.00",
+            "specialPrice": "$179.99"
+        },
+        {
+            "name": "Mini Cessna 200mm/8'' Indoor Electric RC Airplane Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/tw-748-1.jpg",
+            "pageUrl": "http://www.generalhobby.com/mini-cessna-200mm8-indoor-electric-airplane-readytofly-p-430.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$29.97",
+            "specialPrice": null
+        },
+        {
+            "name": "Large 1200mm Dynam P-51 Mustang Ready-To-Fly Electric RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-p-51-1200-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/large-1200mm-dynam-mustang-readytofly-electric-airplane-p-320.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$239.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "Dynam Piper J-3 Cub 1245mm Electric RC Airplane (PNP)",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-1250-j-3-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-piper-1245mm-electric-airplane-p-318.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$148.00",
+            "specialPrice": "$129.97"
+        },
+        {
+            "name": "Large P-51 Mustang 1400mm/55.1'' Electric RC Airplane 100% Reday-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-51-lanyu-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/large-mustang-1400mm551-electric-airplane-redaytofly-p-446.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$289.00",
+            "specialPrice": "$229.97"
+        },
+        {
+            "name": "Large P-51 Mustang 1400mm/55.1'' Electric RC Airplane 100% Reday-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-51-lanyu-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/large-mustang-1400mm551-electric-airplane-redaytofly-p-446.html?osCsid=cg01464knji13vvge5j1c0dmd5",
+            "regularPrice": "$289.00",
+            "specialPrice": "$229.97"
+        },
+        {
+            "name": "P-47D Thunderbolt Hun Hunter 48'' EPO Electric RC Airplane PNP With Retracts",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-p-47-7-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/p47d-thunderbolt-hunter-electric-airplane-with-retracts-p-483.html",
+            "regularPrice": "$199.00",
+            "specialPrice": "$129.97"
+        },
+        {
+            "name": "VolantexRC Super Decathlon 1400mm/55.1'' EPO Electric RC Airplane PNP With Brushless Motor/ESC/Servos/Prop Installed",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-747-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/volantexrc-super-decathlon-1400mm551-electric-airplane-with-brushless-motorescservosprop-installed-p-575.html",
+            "regularPrice": "$199.00",
+            "specialPrice": "$157.99"
+        },
+        {
+            "name": "F4U Corsair Jumbo 1400mm Warbird 100% Ready-To-Fly electric RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f4u-lanyu-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/corsair-jumbo-1400mm-warbird-readytofly-electric-airplane-p-326.html",
+            "regularPrice": "$289.00",
+            "specialPrice": "$199.88"
+        },
+        {
+            "name": "Starmax MX-2 1400mm EPO Aerobatic RC Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/mx-2-starmax-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-1400mm-aerobatic-airplane-p-458.html",
+            "regularPrice": "$169.00",
+            "specialPrice": "$149.97"
+        },
+        {
+            "name": "Lanyu P-51 Mustange Voodoo 30'' (TW-768-1) EPO Electric RC Plane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-768-1-purple-12-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lanyu-mustange-voodoo-tw7681-electric-plane-p-598.html",
+            "regularPrice": "$99.00",
+            "specialPrice": "$69.97"
+        },
+        {
+            "name": "Goldwing ARF Corvus 540 70E 59'' 1500mm Aerobatic RC Plane B Red",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/corvus-70-a-red-13-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-corvus-1500mm-aerobatic-plane-p-563.html",
+            "regularPrice": "$239.00",
+            "specialPrice": "$195.97"
+        },
+        {
+            "name": "Skyline Slick 540 50E 55''/1400mm A 3D Aerobatic RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/slick-540-50e-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-slick-551400mm-aerobatic-airplane-p-440.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF Corvus 540 70E 59'' 1500mm Aerobatic RC Plane A Yellow",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/corvus-70-a-yellow-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-corvus-1500mm-aerobatic-plane-yellow-p-562.html",
+            "regularPrice": "$239.00",
+            "specialPrice": "$195.97"
+        },
+        {
+            "name": "Freewing F-15 Eagle 64mm EDF Jet RTF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-15-fw-grey-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-eagle-64mm-p-521.html",
+            "regularPrice": "$279.00",
+            "specialPrice": "$189.97"
+        },
+        {
+            "name": "Freewing F-15 Eagle 64mm EDF Jet RTF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-15-fw-grey-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-eagle-64mm-p-521.html",
+            "regularPrice": "$279.00",
+            "specialPrice": "$189.97"
+        },
+        {
+            "name": "Freewing Ultimate Sport 3D Biplane 29.5''/750mm EPO Electric RC Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-fw-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-ultimate-sport-biplane-295750mm-electric-airplane-p-539.html",
+            "regularPrice": "$159.00",
+            "specialPrice": "$109.97"
+        },
+        {
+            "name": "Spitfire 1200mm/47'' Electric RC Airplane Ready-To-Fly With Retracts",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-spitfire-1200mm-11b-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/spitfire-1200mm47-electric-airplane-readytofly-with-retracts-p-316.html",
+            "regularPrice": "$229.00",
+            "specialPrice": "$199.92"
+        },
+        {
+            "name": "AT-6 Texan Navy 1400mm/55.1'' Electric RC Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-at-6-758-2-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/texan-navy-1400mm551-electric-airplane-p-333.html",
+            "regularPrice": "$199.00",
+            "specialPrice": "$129.97"
+        },
+        {
+            "name": "Freewing F-15 Eagle 64mm EDF RC Jet Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-15-fw-grey-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-eagle-64mm-airplane-p-522.html",
+            "regularPrice": "$199.00",
+            "specialPrice": "$155.97"
+        },
+        {
+            "name": "Goldwing Yak 55M 30CC 73''/1860mm Version 3 All Carbon Fiber Aerobatic 3D Gas Nitro Airplane Yellow B ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/gw-yak-55m-30cc-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-30cc-731860mm-version-carbon-fiber-aerobatic-nitro-airplane-yellow-p-444.html",
+            "regularPrice": "$399.00",
+            "specialPrice": "$339.97"
+        },
+        {
+            "name": "Jumbo P-51 Mustang Miss America 1400mm Electric RC Airplane 100% Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-p-51-miss-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/jumbo-mustang-miss-america-1400mm-electric-airplane-readytofly-p-328.html",
+            "regularPrice": "$205.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Lanyu P-51 Mustang 30''/750MM (768-1) 750MM Ready-To-FlyRC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-blue-768-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lanyu-mustang-30750mm-7681-750mm-readytoflyrc-airplane-p-505.html",
+            "regularPrice": "$179.00",
+            "specialPrice": "$129.97"
+        },
+        {
+            "name": "LX-Model F-117 Nighthawk Stealth Fighter 64mm EDF Electric RC Jet Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-117-64-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lxmodel-f117-nighthawk-stealth-fighter-64mm-electric-airplane-p-520.html",
+            "regularPrice": "$179.00",
+            "specialPrice": "$139.97"
+        },
+        {
+            "name": "Skyline Edge 540 70''/1778mm Aerobatic RC Airplane B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-70in-b-1a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-edge-701778mm-aerobatic-airplane-p-519.html",
+            "regularPrice": "$329.00",
+            "specialPrice": "$229.97"
+        },
+        {
+            "name": "Skyline SBach 342 70 60'' Aerobatic RC Airplane Carbon Version A",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-70-w-sky-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-aerobatic-airplane-carbon-version-p-657.html",
+            "regularPrice": "$289.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "Skyline Slick 540 50E 55''/1400mm B 3D Aerobatic RC Airplane ARF Pre-Hinged Carbon Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/slick-50-b-skyline-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-slick-551400mm-aerobatic-airplane-prehinged-carbon-version-p-634.html",
+            "regularPrice": "$239.00",
+            "specialPrice": "$159.99"
+        },
+        {
+            "name": "Toprc P-51D Mustang Yellow 750mm/30.00in EPO Electric RC Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-51-750mm-y-toprc-111-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/toprc-p51d-mustang-yellow-750mm3000in-electric-airplane-p-780.html",
+            "regularPrice": "$159.00",
+            "specialPrice": "$79.99"
+        },
+        {
+            "name": "Goldwing ARF-Brand MX-2 72'' Electric RC Airplane ARF Red B",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/mx-2-72in-b-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-electric-airplane-p-541.html",
+            "regularPrice": "$359.00",
+            "specialPrice": "$225.97"
+        },
+        {
+            "name": "LX 12-Blade Metal 70mm EDF With 2700kv Brushless Motor",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lx-metal-edf-70mm-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/12blade-metal-70mm-with-2700kv-brushless-motor-p-810.html",
+            "regularPrice": "$229.00",
+            "specialPrice": "$169.97"
+        },
+        {
+            "name": "P-51 Mustang 1200mm Electric RC Airplane Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-p-51-1200mm-8-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mustang-1200mm-electric-airplane-readytofly-p-332.html",
+            "regularPrice": "$229.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Sbach 342 30CC  73''/1860mm All Carbon Aerobatic RC Airplane Version 3",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-30cc-gw-c-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-sbach-30cc-731860mm-carbon-aerobatic-airplane-version-p-618.html",
+            "regularPrice": "$439.00",
+            "specialPrice": "$339.97"
+        },
+        {
+            "name": "Skyline Edge 540 70''/1778mm Aerobatic RC Airplane B Carbon Version",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-70in-b-20a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-edge-701778mm-aerobatic-airplane-carbon-version-p-664.html",
+            "regularPrice": "$399.00",
+            "specialPrice": "$265.97"
+        },
+        {
+            "name": "Skyway Edge 540 30CC 73.5'' Carbon Aerobatic RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-540-73in-skysun-1a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyway-edge-30cc-carbon-aerobatic-airplane-p-673.html",
+            "regularPrice": "$399.00",
+            "specialPrice": "$259.97"
+        },
+        {
+            "name": "Texan AT-6 Navy Jumbo 1400mm Electric RC Airplane Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-at-6-1400mm-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/texan-navy-jumbo-1400mm-electric-airplane-readytofly-p-329.html",
+            "regularPrice": "$259.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "Pitts Python 42'' Yellow EPO RC Airplane Read-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-pitts-y-15-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/pitts-python-yellow-airplane-readtofly-p-480.html",
+            "regularPrice": "$249.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "Cessna Skylane 15 41\" Nitro/Electric RC Airplane ARF Blue",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/cessna-182-ep-12-blue-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/cessna-skylane-nitroelectric-airplane-blue-p-77.html",
+            "regularPrice": "$99.92",
+            "specialPrice": "$85.88"
+        },
+        {
+            "name": "FREEWING B-17 \"Flying Fortress\" 63''/1600mm Brushless Warbird with Worm Drive Retract System",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-b-17-9-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-flying-fortress-631600mm-brushless-warbird-with-worm-drive-retract-system-p-287.html",
+            "regularPrice": "$308.92",
+            "specialPrice": "$269.99"
+        },
+        {
+            "name": "18'' RC Robot",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/robot-r-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/18-rc-robot-p-322.html",
+            "regularPrice": "$59.00",
+            "specialPrice": "$29.68"
+        },
+        {
+            "name": "2.4Ghz 4-CH 64mm EDF F-15 Remote Control Jet w/ Brushless Motor/ESC/Lipo 100% RTF Grey",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-15-64mm-e-do-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/24ghz-64mm-remote-control-brushless-motoresclipo-grey-p-293.html",
+            "regularPrice": "$279.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "2.4Ghz 4-CH 64mm EDF F-15 Remote Control Jet w/ Brushless Motor/ESC/Lipo 100% RTF Grey",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-15-64mm-e-do-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/24ghz-64mm-remote-control-brushless-motoresclipo-grey-p-293.html",
+            "regularPrice": "$279.00",
+            "specialPrice": "$199.97"
+        },
+        {
+            "name": "Lanyu P-51 Mustange 30'' (TW-768-1) EPO Electric RC Plane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-blue-768-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lanyu-mustange-tw7681-electric-plane-p-506.html",
+            "regularPrice": "$99.00",
+            "specialPrice": "$69.97"
+        },
+        {
+            "name": "P-51 P51 P-51D Mustang 2.4G 4CH Electric R/C RC Airplane Plane 100% Ready To Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-51-rtf-green-16a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/p51d-mustang-electric-airplane-plane-ready-p-300.html",
+            "regularPrice": "$199.92",
+            "specialPrice": null
+        },
+        {
+            "name": "AT-6 Texan 5-CH 2.4Ghz 1370mm Electric R/C RC Airplane Plane Ready To Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-at-6-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/texan-24ghz-1370mm-electric-airplane-plane-ready-p-295.html",
+            "regularPrice": "$249.92",
+            "specialPrice": "$199.92"
+        },
+        {
+            "name": "P-38 Lightning 52 - 90\" Twin Engine ARF RC Warbird Plane Silver",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-38-90-grey-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/lightning-twin-engine-warbird-plane-silver-p-230.html",
+            "regularPrice": "$359.00",
+            "specialPrice": "$229.97"
+        },
+        {
+            "name": "Raven 30E 49'' 3D Aerobatic Electric RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/raven-30e-13a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/raven-aerobatic-electric-airplane-p-358.html",
+            "regularPrice": "$129.00",
+            "specialPrice": null
+        },
+        {
+            "name": "2.4G 4-Channel Cessna 185 59.1'' Ready-to-Fly RC Airplane Powered by Powerful 3715 Brushless Motor, 50A ESC and 14.8V/2200mAh/15",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/cessna-185-st-1.jpg",
+            "pageUrl": "http://www.generalhobby.com/4channel-cessna-readytofly-airplane-powered-powerful-3715-brushless-motor-148v2200mah15-p-179.html",
+            "regularPrice": "$219.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Cessna 400 Brushless LIPO 37'' Electric RC Airplane Ready-to-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-cessna-400-rtf-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/cessna-brushless-lipo-electric-airplane-readytofly-p-56.html",
+            "regularPrice": "$139.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam Piper J-3 Cub 1245mm Electric RC Airplane Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-1250-j-3-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-piper-1245mm-electric-airplane-readytofly-p-853.html",
+            "regularPrice": "$199.97",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam Sonic 185 Electric Brushless RC Glider 73'' RTF 2.4Ghz",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-sonic-185-3a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-sonic-electric-brushless-glider-24ghz-p-242.html",
+            "regularPrice": "$189.00",
+            "specialPrice": "$169.92"
+        },
+        {
+            "name": "Freewing 6-CH F-16 Fighting Falcon 360 Full Axis Vector Thrust Aerobatic RC EDF Fighter Jet Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-freewing-red-7-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-fighting-falcon-full-axis-vector-thrust-aerobatic-fighter-readytofly-p-839.html",
+            "regularPrice": "$269.00",
+            "specialPrice": "$209.97"
+        },
+        {
+            "name": "Freewing 6-CH F-16 Fighting Falcon 360 Full Axis Vector Thrust Aerobatic RC EDF Fighter Jet Ready-To-Fly",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-fw-1102-7-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-fighting-falcon-full-axis-vector-thrust-aerobatic-fighter-readytofly-p-840.html",
+            "regularPrice": "$269.00",
+            "specialPrice": "$209.97"
+        },
+        {
+            "name": "Freewing Mini BF-109 650mm Electric R/C RCAirplane Plane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-bf-109-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-mini-bf109-650mm-electric-rcairplane-plane-p-297.html",
+            "regularPrice": "$89.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing Mini Spitfire 650mm Electric R/C RC Airplane Plane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-spitfire-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-mini-spitfire-650mm-electric-airplane-plane-p-298.html",
+            "regularPrice": "$89.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF Brand Sbach 342 50E 55'' Aerobatic RC Airplane C Orange",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-50-orange-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-brand-sbach-aerobatic-airplane-orange-p-841.html",
+            "regularPrice": "$199.00",
+            "specialPrice": "$149.97"
+        },
+        {
+            "name": "L-39 2.4G Ready-To-Fly Electric Brushless EDF RC Jet Airplane Red",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/L-39-red-fms-24g-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/readytofly-electric-brushless-airplane-p-140.html",
+            "regularPrice": "$169.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Large 1200mm Spitfire Warbird 100% Ready-To-Fly Electric RC Airplane",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-spitfire-1200mm-2a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/large-1200mm-spitfire-warbird-readytofly-electric-airplane-p-324.html",
+            "regularPrice": "$229.00",
+            "specialPrice": "$209.97"
+        },
+        {
+            "name": "S.E.5a SE5a 50 55'' Electric/Nitro RC Airplane ARF",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/se51-55-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/se5a-se5a-electricnitro-airplane-p-102.html",
+            "regularPrice": "$129.00",
+            "specialPrice": "$109.97"
+        },
+        {
+            "name": "Spitfire 1200mm/47'' EPO Electric RC Airplane PNP",
+            "soldOut": false,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-spitfire-1200mm-2a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/spitfire-1200mm47-electric-airplane-p-338.html",
+            "regularPrice": "$148.88",
+            "specialPrice": "$139.97"
+        },
+        {
+            "name": "LX F-22 Raptor 70mm EDF RC Jet Airplane With Retracts PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lx-f-22-b-12-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/raptor-70mm-airplane-with-retracts-p-491.html",
+            "regularPrice": "$229.00",
+            "specialPrice": null
+        },
+        {
+            "name": "FreeWing Moray Sport Racer 31.5'' Electric RC Airplane PNP, Fast Plane!",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/moray-red-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-moray-sport-racer-electric-airplane-fast-plane-p-556.html",
+            "regularPrice": "$119.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing de Havilland DH.98 Mosquito 1400mm/55.1'' EPO Electric RC Airplane Warbirds PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-mosquitos-34-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-havilland-dh98-mosquito-1400mm551-electric-airplane-warbirds-p-290.html",
+            "regularPrice": "$299.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Cessna 1560mm/61.4'' EPO Electric RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-cessna-1600mm-3a-240-pnp.jpg",
+            "pageUrl": "http://www.generalhobby.com/cessna-1560mm614-electric-airplane-p-349.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline Sbach 342 70 60'' Aerobatic RC Airplane Orange B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-70-o-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-aerobatic-airplane-orange-p-405.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline MXS-R 30CC B 75''/1915mm Aerobatic RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mxs-r-30cc-b-skyline-cn-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-mxsr-30cc-751915mm-aerobatic-airplane-p-627.html",
+            "regularPrice": "$339.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing F9F Panther 64mm RC EDF Jet (PNP) - As Fast As 95MPH",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-f9f-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-panther-64mm-fast-95mph-p-490.html",
+            "regularPrice": "$129.00",
+            "specialPrice": null
+        },
+        {
+            "name": "LX F4 Phantom Twin 70mm EDF RC Jet Grey With Retracts and Electric Brake, High Speed Up To 160kph",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lx-f4-grey-main-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/phantom-twin-70mm-grey-with-retracts-electric-brake-high-speed-160kph-p-643.html",
+            "regularPrice": "$499.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline SBach 342 70 60'' Aerobatic RC Airplane Carbon Version Orange B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-70-b-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-sbach-aerobatic-airplane-carbon-version-orange-p-658.html",
+            "regularPrice": "$289.00",
+            "specialPrice": null
+        },
+        {
+            "name": "TopRC F4U Corsair Blue 750mm/30.00in EPO Electric RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f4u-blue-750mm-toprc-111-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/toprc-corsair-blue-750mm3000in-electric-airplane-p-779.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing MX-2 30CC 73'' V3 RC Airplane Version 3 Green",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/goldwing-mx-2-30cc-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-30cc-airplane-version-green-p-270.html",
+            "regularPrice": "$399.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Yak 55SP 26CC 68in RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/Yak55SP-26cc-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-55sp-26cc-68in-airplane-p-255.html",
+            "regularPrice": "$289.92",
+            "specialPrice": null
+        },
+        {
+            "name": "ARFMFG Yak 54 26CC 70in RC Airplane A ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-54-arf-26cc-a-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/arfmfg-26cc-70in-airplane-p-254.html",
+            "regularPrice": "$299.00",
+            "specialPrice": null
+        },
+        {
+            "name": "ARFMFG Yak 54 26CC 70in RC Airplane D ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-54-26cc-arf-d-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/arfmfg-26cc-70in-airplane-p-468.html",
+            "regularPrice": "$299.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing MX-2 30CC 73'' V3 RC Airplane Version 3 Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/Goldwing-MX-2-30CC-B-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-30cc-airplane-version-p-271.html",
+            "regularPrice": "$399.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Extra 300LP 20CC 65in RC Airplane ARF A",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/EXTRA300LP_20CC_b-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-extra-300lp-20cc-65in-airplane-p-251.html",
+            "regularPrice": "$239.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Flyfly Gee Bee 25 40.8'' Fiber Glass Electric RC Airplane Yellow ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/geebee-25-y-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/flyfly-fiber-glass-electric-airplane-yellow-p-628.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Sbach 342 30CC V3 All Carbon Aerobatic RC Airplane Version 3 White",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-30cc-gw-v3-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-sbach-30cc-carbon-aerobatic-airplane-version-white-p-268.html",
+            "regularPrice": "$399.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Lingcat Bobcat 380 Electric Pusher Jet 31'' RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/EP-LINGCAT-380-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lingcat-bobcat-electric-pusher-airplane-p-35.html",
+            "regularPrice": "$79.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline Edge 540 70''/1778mm A Aerobatic RC Airplane Carbon Version",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-71-in-a-7-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-edge-701778mm-aerobatic-airplane-carbon-version-p-663.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyway Yak 54 30CC 73'' Carbon Aerobatic RC Airplane C",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-54-30cc-c-skysun-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyway-30cc-carbon-aerobatic-airplane-p-674.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyway Yak 55M 30CC 73'' A Carbon Aerobatic RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55-30cc-a-sykysun-15-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyway-30cc-carbon-aerobatic-airplane-p-675.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax J-3 Piper Cub 1400mm/55.1in EPO RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starmax-j-3-1400-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-piper-1400mm551in-airplane-p-278.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam Meteor Brushless 70mm EDF RC Jet RC Airplane 4-Ch RTF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-meteor-8a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-meteor-brushless-70mm-airplane-p-241.html",
+            "regularPrice": "$189.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam Meteor Brushless 70mm EDF RC Jet RC Airplane 4-Ch RTF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-meteor-8a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-meteor-brushless-70mm-airplane-p-241.html",
+            "regularPrice": "$189.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Richmodel P-38 Lightning Electric 51.5'' RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/P-38-51-richmodel-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/richmodel-lightning-electric-airplane-p-70.html",
+            "regularPrice": "$119.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Big Cessna Skylane 1560mm/61.4'' Electric RC Airplane 100% ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-cessna-1600mm-3a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/cessna-skylane-1560mm614-electric-airplane-readytofly-p-325.html",
+            "regularPrice": "$269.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Phoenix Evolution 2600mm RC Glider Airplane Ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-evolution-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/phoenix-evolution-2600mm-glider-airplane-readytofly-p-327.html",
+            "regularPrice": "$239.00",
+            "specialPrice": null
+        },
+        {
+            "name": "4 CH F-35 Lightning II 3D Aerobatic RC 64mm EDF Fighter Jet Speed Up To 95mph+ PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-35-fw-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lightning-aerobatic-64mm-fighter-speed-95mph-p-283.html",
+            "regularPrice": "$89.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Electric Ducted Fan RC Trainer 51'' ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/fan-trainer-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/electric-ducted-trainer-p-238.html",
+            "regularPrice": "$119.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Super Trainer 60 70'' Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/super-trainer-60-70-240.JPG",
+            "pageUrl": "http://www.generalhobby.com/super-trainer-nitro-airplane-p-55.html",
+            "regularPrice": "$109.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Gee Bee 25 Nitro/Electric 40'' RC Airplane ARF Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/EP-GEEBEE-25-red-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/nitroelectric-airplane-p-45.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "UAV 63'' Electric RC Drone Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/Predator-63-rq-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/electric-drone-airplane-p-99.html",
+            "regularPrice": "$99.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate Bipe Electric RC Airplane 30'' ARF Yellow",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-ep-y-r.jpg",
+            "pageUrl": "http://www.generalhobby.com/ultimate-bipe-electric-airplane-yellow-p-233.html",
+            "regularPrice": "$89.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Richmodel Keecat 65 55.1'' Prop Jet RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/KEECAT-65-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/richmodel-keecat-prop-airplane-p-443.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "X-UAV P-38 Lightning 1400mm/55.1'' EPO Electric RC Airplane with Retracts PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-38-1400-camo-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/xuav-lightning-1400mm551-electric-airplane-with-retracts-p-335.html",
+            "regularPrice": "$189.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax P-51 Mustang 1600mm/63'' EPO RC Airplane PNP Gunfighter",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/p51-starmax-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-mustang-1600mm63-airplane-gunfighter-p-275.html",
+            "regularPrice": "$289.00",
+            "specialPrice": null
+        },
+        {
+            "name": "P-51 Mustang Gunfighter 1550mm/61'' EPO Electric RC Airplane With Retracts PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-51-gunfighter-1550mm-1a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mustang-gunfighter-1550mm61-electric-airplane-with-retracts-p-334.html",
+            "regularPrice": "$249.00",
+            "specialPrice": null
+        },
+        {
+            "name": "ARFMFG Sukhoi Su-26 50 3D 56'' RC Airplane C",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/su-26-50-3d-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/arfmfg-sukhoi-su26-airplane-p-477.html",
+            "regularPrice": "$209.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF Brand Sbach 300 20CC 67.7'' Color B ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-300-20cc-arf-b-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-brand-sbach-20cc-color-p-401.html",
+            "regularPrice": "$299.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF Brand Sbach 342 50E 55'' Aerobatic RC Airplane A White",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-55in-white-1a.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-brand-sbach-aerobatic-airplane-white-p-366.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Extra 300LP 20CC 65in RC Airplane ARF B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/EXTRA300LP_20CC_a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-extra-300lp-20cc-65in-airplane-p-250.html",
+            "regularPrice": "$289.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF Brand Sbach 300 20CC 67.7'' Color A ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-300-arf-a-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-brand-sbach-20cc-color-p-402.html",
+            "regularPrice": "$299.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline MXS-R 70 60'' RC Airplane A",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mxs-r-70-skyline-a-8-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-mxsr-airplane-p-423.html",
+            "regularPrice": "$229.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam Grand Cruiser Electric RC Airplane Ready-To-Fly Powered by Brushless Motor and LIPO Battery",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-cessna-310-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-grand-cruiser-electric-airplane-readytofly-powered-brushless-motor-lipo-battery-p-315.html",
+            "regularPrice": "$239.00",
+            "specialPrice": null
+        },
+        {
+            "name": "L-39 Albatros 49.4'' Electric Ducted Fan 4''/101mm Fiberglass RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/l-39-100df-4-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/albatros-electric-ducted-4101mm-fiberglass-airplane-p-407.html",
+            "regularPrice": "$169.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax 70mm EDF F-22 Raptor Electric RC Jet Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-22-starmax-70-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-70mm-raptor-electric-airplane-p-340.html",
+            "regularPrice": "$179.00",
+            "specialPrice": null
+        },
+        {
+            "name": "F4U Corsair 55.1''/1400mm EPO Electric RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-f4u-758-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/corsair-5511400mm-electric-airplane-p-339.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "LX-Model F-117 Nighthawk Stealth Fighter 64mm EDF Electric RC Jet Airplane RTF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-117-64-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lxmodel-f117-nighthawk-stealth-fighter-64mm-electric-airplane-p-441.html",
+            "regularPrice": "$269.00",
+            "specialPrice": null
+        },
+        {
+            "name": "LX-Model F-117 Nighthawk Stealth Fighter 64mm EDF Electric RC Jet Airplane RTF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-117-64-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lxmodel-f117-nighthawk-stealth-fighter-64mm-electric-airplane-p-441.html",
+            "regularPrice": "$269.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline MXS-R 70 60'' RC Airplane B Silver",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mxs-r-70-skyline-b-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-mxsr-airplane-silver-p-424.html",
+            "regularPrice": "$229.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing MXS-R 70 60'' Aerobatic Electric/Nitro Carbon Fiber RC Airplane Green A",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mxs-70-a-green-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-mxsr-aerobatic-electricnitro-carbon-fiber-airplane-green-p-364.html",
+            "regularPrice": "$259.00",
+            "specialPrice": null
+        },
+        {
+            "name": "F4U Corsair 50'' EPO Electric RC Airplane Warbird Installed With Motor/ESC/Serovs/Prop/Retracts",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f4u-dynam-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/corsair-electric-airplane-warbird-installed-with-motorescserovspropretracts-p-553.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing Pandora 4-In-1 Low Wing 1400mm/55'' RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/pandora-red-16-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-pandora-4in1-wing-1400mm55-airplane-p-534.html",
+            "regularPrice": "$229.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARFMFG Brand MXS-R 70 60'' Aerobatic Electric/Nitro RC Airplane Blue B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mxs-r-70-grey-1a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfmfg-brand-mxsr-aerobatic-electricnitro-airplane-blue-p-363.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "F6F Hellcat 50'' 1270mm EPO Electric RC Airplane PNP With Motor/ESC/Servos/Prop/Retracts Installed",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f6f-dynam-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/hellcat-1270mm-electric-airplane-with-motorescservospropretracts-installed-p-552.html",
+            "regularPrice": "$189.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Lanyu P-51 Mustang 1400mm/55.1'' Electric RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-p-51-miss-am-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lanyu-mustang-1400mm551-electric-airplane-p-331.html",
+            "regularPrice": "$169.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Pitts Python 42'' Yellow EPO Electric RC Airplane PNP Package",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-pitts-y-15-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/pitts-python-yellow-electric-airplane-package-p-479.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Sbach 342 20CC 65'' Profile Aerobatic RC Airplane White A",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-20cc-white-1.jpg",
+            "pageUrl": "http://www.generalhobby.com/sbach-20cc-profile-aerobatic-airplane-white-p-389.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F/A-18C Hornet Jolly Rogers 70mm Electric EDF RC Jet Ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-18-70mm-jolley-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-fa18c-hornet-jolly-rogers-70mm-electric-readytofly-p-312.html",
+            "regularPrice": "$229.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyway Sbach 342 30CC 73'' Carbon Fiber RC Airplane Thunderbolt A",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-34-2-30cc-a-arf-8-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyway-sbach-30cc-carbon-fiber-airplane-thunderbolt-p-546.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "P-51 Mustang Stinky 57'' Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/P-51-46-120-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mustang-stinky-nitro-airplane-p-62.html",
+            "regularPrice": "$139.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Ryan STA 44'' Electric RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ryan-sta-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ryan-electric-airplane-p-464.html",
+            "regularPrice": "$89.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline Extra 300LP 30CC 73'' B Aerobatic RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/extra-300lp-30cc-b-skyline-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-extra-300lp-30cc-aerobatic-airplane-p-476.html",
+            "regularPrice": "$369.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing Focke-Wulf Fw 190 44\"/1120mm EPO Electric RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/fw-190-fw-16-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-fockewulf-441120mm-electric-airplane-p-535.html",
+            "regularPrice": "$239.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF Yak 55M 50E 57'' Electric/Nitro Aerobatic 3D RC Airplane White C",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55m-50-3d-white-28-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-electricnitro-aerobatic-airplane-white-p-365.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Meteor 70mm EDF Electric RC Jet Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-meteor-8a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/meteor-70mm-electric-airplane-p-341.html",
+            "regularPrice": "$148.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyway Slick 35CC 74'' Carbon Aerobatic RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/slick-skysun-f-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyway-slick-35cc-carbon-aerobatic-airplane-p-676.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F-22 Raptor 70mm EDF Jet Electric R/C RC Airplane Plane Ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starmax-f-22-70mm-grey-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-raptor-70mm-electric-airplane-plane-readytofly-p-296.html",
+            "regularPrice": "$289.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F-22 Raptor 70mm EDF Jet Electric R/C RC Airplane Plane Ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starmax-f-22-70mm-grey-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-raptor-70mm-electric-airplane-plane-readytofly-p-296.html",
+            "regularPrice": "$289.92",
+            "specialPrice": null
+        },
+        {
+            "name": "BF-109 50'' EPO Electric RC Airplane PNP With Motor/ESC/Servos/Prop/Retracts Installed",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/bf-109-dynam-8-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/bf109-electric-airplane-with-motorescservospropretracts-installed-p-554.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF Yak 55M 50E 57'' Electric/Nitro Aerobatic 3D RC Airplane Red B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55m-50-3d-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-electricnitro-aerobatic-airplane-p-360.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Pitts 31'' Electric RC Biplane Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/pitts-ep-5-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/pitts-electric-biplane-airplane-p-95.html",
+            "regularPrice": "$99.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline MXS-R 75''/1915mm 30CC Carbon Fiber Gas RC Airplane B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mxs-r-30cc-yellow-6-skyline-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-mxsr-751915mm-30cc-carbon-fiber-airplane-p-427.html",
+            "regularPrice": "$359.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F/A-18E Hornet Fire Tiger 64mm Electric EDF RC Jet Ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-18-64mm-tiger-6a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-fa18e-hornet-fire-tiger-64mm-electric-readytofly-p-314.html",
+            "regularPrice": "$189.00",
+            "specialPrice": null
+        },
+        {
+            "name": "TopRC FW-190 1200mm/47in EPO Electric RC Airplane PNP B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/fw-190-toprc-111-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/toprc-fw190-1200mm47in-electric-airplane-p-778.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam Grand Cruiser Electric RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-grand-cruiser-pnp.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-grand-cruiser-electric-airplane-p-512.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "F-16 Fighting Falcon 3D Vector Thrust Aerobatic RC EDF Fighter Jet Plug-And-Play Kit",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-f-16-fw-70mm-vector-grey-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fighting-falcon-vector-thrust-aerobatic-fighter-plugandplay-p-286.html",
+            "regularPrice": "$159.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Formost 160 76in/1930mm RC Prop Jet Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/formost-160-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/formost-76in1930mm-prop-airplane-p-406.html",
+            "regularPrice": "$279.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF-Brand Extra 300LP 20CC 67.5'' Aerobatic RC Airplane ARF C",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/extra-300lp-20cc-arf-c-9-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-extra-300lp-20cc-aerobatic-airplane-p-547.html",
+            "regularPrice": "$289.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Sbach 342 20CC 65'' Profile Aerobatic RC Airplane Orange B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-20cc-orange-2.jpg",
+            "pageUrl": "http://www.generalhobby.com/sbach-20cc-profile-aerobatic-airplane-orange-p-390.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "TopRC Gee Bee 1200mm/47.24in EPO Electric RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/gee-bee-1200-toprc-111-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/toprc-1200mm4724in-electric-airplane-p-781.html",
+            "regularPrice": "$189.00",
+            "specialPrice": null
+        },
+        {
+            "name": "ARFMFG Sukhoi Su-26 50 3D 56'' RC Airplane A Yellow ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/su-26--50-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/arfmfg-sukhoi-su26-airplane-yellow-p-561.html",
+            "regularPrice": "$219.00",
+            "specialPrice": null
+        },
+        {
+            "name": "ARFMFG Yak 55M 30CC 71.7''/1820mm Aerobatic RC Airplane C ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55m-30cc-arf-c-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/arfmfg-30cc-7171820mm-aerobatic-airplane-p-550.html",
+            "regularPrice": "$329.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam FW-190 50'' EPO Electric RC Airplane PNP With Retracts",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-fw-190-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-fw190-electric-airplane-with-retracts-p-481.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing F6F 39'' EPO RC Ariplane PNP With Motor/ESC/Servos/Prop Installed",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f6f-freewing-rtf-11a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-ariplane-with-motorescservosprop-installed-p-492.html",
+            "regularPrice": "$119.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF-Brand Extra 300LP 20CC 67.5'' Aerobatic RC Airplane ARF B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/extra-300lp-20cc-arf-b-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-extra-300lp-20cc-aerobatic-airplane-p-548.html",
+            "regularPrice": "$289.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Richmodel B-25J Mitchell 78.7'' 2000mm Nitro Gas/Electric RC Airplane Warbird ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/b-25j-richmodel-1.jpg",
+            "pageUrl": "http://www.generalhobby.com/richmodel-b25j-mitchell-2000mm-nitro-gaselectric-airplane-warbird-p-551.html",
+            "regularPrice": "$359.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Sukhoi Su-26 30E 48.3'' 3D Electric RC Plane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/su-26-49-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/sukhoi-su26-electric-plane-p-606.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Yak 54 Profile 20CC 65'' Aerobatic RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-54-profile-20cc-white-1-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/profile-20cc-aerobatic-airplane-p-403.html",
+            "regularPrice": "$159.92",
+            "specialPrice": null
+        },
+        {
+            "name": "ARFMFG Yak 55M 30CC 71.7''/1820mm Aerobatic RC Airplane A ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55m-30cc-arf-a-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/arfmfg-30cc-7171820mm-aerobatic-airplane-p-549.html",
+            "regularPrice": "$329.00",
+            "specialPrice": null
+        },
+        {
+            "name": "LX F4 Phantom Twin 70mm EDF RC Jet Yellow With Retracts and Electric Brake, High Speed Up To 160kph",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lx-f4-yellow-5.jpg",
+            "pageUrl": "http://www.generalhobby.com/phantom-twin-70mm-yellow-with-retracts-electric-brake-high-speed-160kph-p-644.html",
+            "regularPrice": "$499.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax Pitts 1600mm/63'' RC Biplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/pitts-starmax-blue-7-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-pitts-1600mm63-biplane-p-517.html",
+            "regularPrice": "$339.00",
+            "specialPrice": null
+        },
+        {
+            "name": "ARFMFG Sbach 300 30CC V2 B Carbon Aerobatic RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-300-30cc-arf-b-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/arfmfg-sbach-30cc-carbon-aerobatic-airplane-p-683.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Edge 540 49'' 3D Electric RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-540-49in-blue-12-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/edge-electric-airplane-p-605.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing All-Carbon-Fiber Sbach 342 50E 55'' Aerobatic RC Airplane Thunderbolt A",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-342-white-240-3.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-allcarbonfiber-sbach-aerobatic-airplane-thunderbolt-p-439.html",
+            "regularPrice": "$239.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Phoenix 2000 RC Glider Airplane 100% ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-phoenix-2000-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/phoenix-2000-glider-airplane-readytofly-p-330.html",
+            "regularPrice": "$172.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F/A-18 Jolley Rogers 70mm EDF Electric RC Jet Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-18-70mm-jolley-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-fa18-jolley-rogers-70mm-electric-airplane-p-343.html",
+            "regularPrice": "$144.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F/A-18E Hornet Fire Tiger 64mm Electric EDF RC Jet PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-18-64mm-tiger-6a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-fa18e-hornet-fire-tiger-64mm-electric-p-344.html",
+            "regularPrice": "$136.88",
+            "specialPrice": null
+        },
+        {
+            "name": "B-25 Mitchell Bomber 1600mm EPO Electric RC Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/b-25-x-silver-1a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mitchell-bomber-1600mm-electric-airplane-p-336.html",
+            "regularPrice": "$299.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Fiberglass 100mm EDF Electric RC Jet Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/fan-trainer-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fiberglass-100mm-electric-airplane-p-347.html",
+            "regularPrice": "$109.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Yak 55M 30CC 73''/1860mm Version 3 Aerobatic RC Airplane ARF B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55m-30cc-b-gw-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-30cc-731860mm-version-aerobatic-airplane-p-616.html",
+            "regularPrice": "$429.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Skyline MX-2 30CC 73'' 3D Aerobatic RC Airplane Red B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/skyline-rc-mx2-30cc-red-top-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyline-30cc-aerobatic-airplane-p-420.html",
+            "regularPrice": "$359.99",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F/A-18 70mm EDF Tiger Electric Jet Airplane PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-18-70mm-tiger-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-fa18-70mm-tiger-electric-airplane-p-342.html",
+            "regularPrice": "$144.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F/A-18C Hornet Fire Tiger 70mm Electric EDF RC Jet Ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-18-70mm-tiger-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-fa18c-hornet-fire-tiger-70mm-electric-readytofly-p-313.html",
+            "regularPrice": "$229.92",
+            "specialPrice": null
+        },
+        {
+            "name": "ARFMFG Sbach 300 30CC V2 A Carbon Aerobatic RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-300-30cc-arf-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/arfmfg-sbach-30cc-carbon-aerobatic-airplane-p-682.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Yak 54 30CC 73'' RC Airplane Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/gw-yak-54-30cc-red-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-30cc-airplane-p-355.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Yak 55M 30CC 73''/1860mm Version 3 Aerobatic RC Airplane ARF C",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-55m-30cc-gw-c-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-30cc-731860mm-version-aerobatic-airplane-p-617.html",
+            "regularPrice": "$429.00",
+            "specialPrice": null
+        },
+        {
+            "name": "LX F-18 Twin 70mm EDF Bounty Hunter RC Jet With Retracts Kit Version",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/F18-Bounty-Hunter-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/twin-70mm-bounty-hunter-with-retracts-version-p-824.html",
+            "regularPrice": "$479.00",
+            "specialPrice": null
+        },
+        {
+            "name": "LX F-18 Twin 70mm EDF Red Viper RC Jet With Retracts Kit Version",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/F18-Red-Viper-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/twin-70mm-viper-with-retracts-version-p-825.html",
+            "regularPrice": "$479.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Sbach 342 30CC 73'' Carbon Fiber RC Airplane A",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/sbach-skysun-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/sbach-30cc-carbon-fiber-airplane-p-736.html",
+            "regularPrice": "$399.00",
+            "specialPrice": null
+        },
+        {
+            "name": "F-22 Raptor 2.4G 64mm EDF Electric RC Jet Airplane Plane 100% Ready-to-Fly Grey",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starmax-f-22-64mm-grey-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/raptor-64mm-electric-airplane-plane-readytofly-grey-p-292.html",
+            "regularPrice": "$229.92",
+            "specialPrice": null
+        },
+        {
+            "name": "A1 Skyraider 63'' Electric R/C RC Airplane Plane W/ Brushless Motor/ESC/Servo",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/skyraider-grey-2a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/skyraider-electric-airplane-plane-brushless-motorescservo-p-303.html",
+            "regularPrice": "$279.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Seawind 71'' Nitro RC Airplane Sea Plane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/seawind-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/seawind-nitro-airplane-plane-p-246.html",
+            "regularPrice": "$259.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam Grand Cruiser 2.4GHz 4CH Twin Engine Electric RC Airplane RTF With Retracts",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/dynam-grand-cruiser-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-grand-cruiser-24ghz-twin-engine-electric-airplane-with-retracts-p-239.html",
+            "regularPrice": "$259.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF Brand Extra 260 26CC 70in RC Airplane ARF A",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/gw-extra-26cc-a-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-brand-extra-26cc-70in-airplane-p-253.html",
+            "regularPrice": "$249.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Yak 54 30CC 73'' RC Airplane White",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/goldwing-yak-54-30cc-a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-30cc-airplane-white-p-274.html",
+            "regularPrice": "$399.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Mig-15 70mm EDF Jet Electric R/C RC Airplane Plane Fighter Jet PNP w/ Retracts",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starmax-mig-15-70mm-red-5a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mig15-70mm-electric-airplane-plane-fighter-retracts-p-294.html",
+            "regularPrice": "$229.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Edge Fury 540T 40 - 52\" Acrobatic Nitro Gas RC Plane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-540-52-rcc.gif",
+            "pageUrl": "http://www.generalhobby.com/edge-fury-540t-acrobatic-nitro-plane-p-305.html",
+            "regularPrice": "$129.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing F-86 \"Sabre\" 64mm RC EDF Jet - Skyblazers paint (PNP)",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-f-86-64mm-rcc.gif",
+            "pageUrl": "http://www.generalhobby.com/freewing-sabre-64mm-skyblazers-paint-p-306.html",
+            "regularPrice": "$129.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing ARF-Brand Extra 260 26CC 70in RC Airplane ARF B",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/EXTRA260-26CC-ARF-B3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-arfbrand-extra-26cc-70in-airplane-p-252.html",
+            "regularPrice": "$249.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax F-86 Sabre Pro 70mm Electric RC EDF Jet RC Airplane Plane Plug-And-Play",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-86-star-70mm-8a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-sabre-70mm-electric-airplane-plane-plugandplay-p-307.html",
+            "regularPrice": "$209.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Large Starmax 63'' P-47 Thunderbolt EPO Electric RC Airplane Plug-N-Play",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-47-starmax-2a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/large-starmax-thunderbolt-electric-airplane-plugnplay-p-291.html",
+            "regularPrice": "$299.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing mini Mig-15 \"Fagot/Midget\" RC EDF Jet Electric R/C RC Airplane Plane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/freewing-mig-15-64mm-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-mini-mig15-fagotmidget-electric-airplane-plane-p-301.html",
+            "regularPrice": "$129.92",
+            "specialPrice": null
+        },
+        {
+            "name": "2.4Ghz 4-CH 70mm EDF F-18 Red Viper Remote Control Jet w/ Brushless Motor/ESC/Lipo 100% RTF (Fixed LG)",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-18-viper-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/24ghz-70mm-viper-remote-control-brushless-motoresclipo-fixed-p-302.html",
+            "regularPrice": "$189.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Goldwing Edge 540 26CC 70'' RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/goldwing-edge-540-26cc-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/goldwing-edge-26cc-airplane-p-273.html",
+            "regularPrice": "$329.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam C47 Transporter Brushless RC Airplane RTF 2.4G",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/c47-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-transporter-brushless-airplane-p-240.html",
+            "regularPrice": "$239.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate Bipe Electric RC Airplane 30'' ARF Purple",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-ep-p-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ultimate-bipe-electric-airplane-purple-p-232.html",
+            "regularPrice": "$89.92",
+            "specialPrice": null
+        },
+        {
+            "name": "P-51 Mustang Marie  1400mm/57'' EPO Electric RC Airplane PNP With Retracts And Motor/ESC/Servos/Propeller Installed",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/pz-p-51-29a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mustang-marie-1400mm57-electric-airplane-with-retracts-motorescservospropeller-installed-p-489.html",
+            "regularPrice": "$249.00",
+            "specialPrice": null
+        },
+        {
+            "name": "2.4G 4-Channel Russian SU-47 EDF RC Jet Powered by Two 55mm Electric-Ducted Fan, Two Brushless Motors, and Two 18A ESC, and LiPo",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/su-47-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/4channel-russian-su47-powered-55mm-electricducted-brushless-motors-lipo-p-180.html",
+            "regularPrice": "$199.92",
+            "specialPrice": null
+        },
+        {
+            "name": "2.4Ghz 4 Channel Dynam Hawk Sky Electric Brushless Powered Glider RTF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/hawk-sky-dynam-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/24ghz-channel-dynam-hawk-electric-brushless-powered-glider-p-319.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "A-10 Thunderbolt II 4-Channel Ready-To-Fly Electric Ducted Fan RC Fighter Jet Airplane Dessert Sandy Version",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/a-10-sand-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/thunderbolt-4channel-readytofly-electric-ducted-fighter-airplane-dessert-sandy-version-p-153.html",
+            "regularPrice": "$89.96",
+            "specialPrice": null
+        },
+        {
+            "name": "A-10 Thunderbolt II 4-Channel Ready-To-Fly Electric Ducted Fan RC Fighter Jet Airplane Sandy Camo Version",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/a-10-camo-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/thunderbolt-4channel-readytofly-electric-ducted-fighter-airplane-sandy-camo-version-p-157.html",
+            "regularPrice": "$89.96",
+            "specialPrice": null
+        },
+        {
+            "name": "A-10 Thunderbolt II 4-Channel Ready-To-Fly Electric Ducted Fan RC Fighter Jet Airplane Silver Version",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/a-10-silver-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/thunderbolt-4channel-readytofly-electric-ducted-fighter-airplane-silver-version-p-156.html",
+            "regularPrice": "$89.96",
+            "specialPrice": null
+        },
+        {
+            "name": "AT-6 Aeroshell 61'' Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/at-6-13-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/aeroshell-nitro-airplane-p-124.html",
+            "regularPrice": "$139.96",
+            "specialPrice": null
+        },
+        {
+            "name": "B-17 Flying Fortress Bomber 65\" Electric RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/b-17-65-240.JPG",
+            "pageUrl": "http://www.generalhobby.com/flying-fortress-bomber-electric-airplane-p-72.html",
+            "regularPrice": "$189.88",
+            "specialPrice": null
+        },
+        {
+            "name": "B-25 Mitchell 52 - 71\" Twin Engine Bomber Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/b-25-1-silver-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mitchell-twin-engine-bomber-nitro-airplane-p-167.html",
+            "regularPrice": "$239.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Bobcat 50 Pusher Prop Jet 51'' RC Airplane ARF Silver",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/bobcat-50-51-silver-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/bobcat-pusher-prop-airplane-silver-p-87.html",
+            "regularPrice": "$119.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Bobcat 50 Pusher Prop Jet 51'' RC Airplane ARF White",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/bobcat-50-51-white-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/bobcat-pusher-prop-airplane-white-p-94.html",
+            "regularPrice": "$119.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Bobcat 50 Pusher Prop Jet 51'' RC Airplane ARF Yellow",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/bobcat-50-51-yellow-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/bobcat-pusher-prop-airplane-yellow-p-88.html",
+            "regularPrice": "$119.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Boeing PT-17 Stearman Kaydet 40 - 44\" Nitro RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/boeing-pt-17-40-44-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/boeing-pt17-stearman-kaydet-nitro-airplane-p-60.html",
+            "regularPrice": "$139.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Canadair CL-415 80.7'' RC Seaplane ARF Version 2",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cl-415-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/canadair-cl415-seaplane-version-p-247.html",
+            "regularPrice": "$259.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Cap 232 3D 35'' Electric RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cap-232-3d-ep-35-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/electric-airplane-p-86.html",
+            "regularPrice": "$69.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Cap 232 60 62.2'' Nitro/Electric RC Airplane ARF Black",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cap-232-60-black-c.jpg",
+            "pageUrl": "http://www.generalhobby.com/nitroelectric-airplane-black-p-263.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Cap 232 60 62.2'' Nitro/Electric RC Airplane ARF Checker",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cap-232-60-checker-c.jpg",
+            "pageUrl": "http://www.generalhobby.com/nitroelectric-airplane-checker-p-264.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Cap 232 60 62.2'' Nitro/Electric RC Airplane ARF Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cap-232-60-red-c.jpg",
+            "pageUrl": "http://www.generalhobby.com/nitroelectric-airplane-p-266.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Catalina 54.3'' 4-Channel Ready-to-Fly RC Sea Plane Powered by Brushless Motor/LIPO",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/catalina-brushless-240-1a.jpg",
+            "pageUrl": "http://www.generalhobby.com/catalina-4channel-readytofly-plane-powered-brushless-motorlipo-p-194.html",
+            "regularPrice": "$139.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Cessna 337 Skymaster 25 55'' Nitro/Electric RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cessna-337-25-blue-8a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/cessna-skymaster-nitroelectric-airplane-p-189.html",
+            "regularPrice": "$99.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Cessna 337 Skymaster 81'' RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cessna-337-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/cessna-skymaster-airplane-p-236.html",
+            "regularPrice": "$199.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Cessna 421 71'' Nitro Gas RC Airplane ARF Orange",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cessna-421-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/cessna-nitro-airplane-orange-p-173.html",
+            "regularPrice": "$169.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Cessna 421 71'' Nitro Gas RC Airplane ARF White",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cessna-421-white-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/cessna-nitro-airplane-white-p-260.html",
+            "regularPrice": "$169.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Cessna Skylane 15 41\" Nitro/Electric RC Airplane ARF Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/cessna-15-red-41-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/cessna-skylane-nitroelectric-airplane-p-78.html",
+            "regularPrice": "$89.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Citabria 105.5'' RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/Citabria-RC-Plane-1a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/citabria-1055-airplane-p-337.html",
+            "regularPrice": "$339.00",
+            "specialPrice": null
+        },
+        {
+            "name": "de Havilland Mosquito Twin Engine 73'' ARF RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mosquito-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/havilland-mosquito-twin-engine-airplane-p-308.html",
+            "regularPrice": "$229.99",
+            "specialPrice": null
+        },
+        {
+            "name": "Dynam Super Cub 2.4G Ready-To-Fly Electric RC Airplane Powered By Brushless/LIPO",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/super-cub-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/dynam-super-readytofly-electric-airplane-powered-brushlesslipo-p-256.html",
+            "regularPrice": "$199.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Edge 50CC 84.9in Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-50cc-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/edge-50cc-849in-airplane-p-249.html",
+            "regularPrice": "$499.92",
+            "specialPrice": null
+        },
+        {
+            "name": "EF2000 EuroFighter Typhoon Brushless 64mm EDF RC Jet Ready-to-Fly Silver",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/hc-ef2000-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ef2000-eurofighter-typhoon-brushless-64mm-readytofly-silver-p-134.html",
+            "regularPrice": "$169.96",
+            "specialPrice": null
+        },
+        {
+            "name": "EMB 312 Tucano 120 - 65\" Nitro RC Plane Black ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/tucano-black-2.jpg",
+            "pageUrl": "http://www.generalhobby.com/tucano-nitro-plane-black-p-421.html",
+            "regularPrice": "$169.99",
+            "specialPrice": null
+        },
+        {
+            "name": "Extra 300S 60 63'' Aerobatic RC Airplane ARF Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/extra-300s-60-red-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/extra-300s-aerobatic-airplane-p-462.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "F-16 2.4G 64mm Electric RC EDF Jet Airplane RTF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/fms-f-16-grey-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/64mm-electric-airplane-p-195.html",
+            "regularPrice": "$169.92",
+            "specialPrice": null
+        },
+        {
+            "name": "F-16 Fighting Falcon Fuel/Electric 41'' ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-16-42-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fighting-falcon-fuelelectric-p-622.html",
+            "regularPrice": "$109.00",
+            "specialPrice": null
+        },
+        {
+            "name": "F-4E Phantom 4-Channel RC Jet w/ Brushless, LiPo Setup, 64mm EDF, 100% RTF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f4e-fw-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/phantom-4channel-brushless-lipo-setup-64mm-p-284.html",
+            "regularPrice": "$159.92",
+            "specialPrice": null
+        },
+        {
+            "name": "F-86 Sabre 100 EDF Fiberglass 49.4'' RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f-86-edf-100.jpg",
+            "pageUrl": "http://www.generalhobby.com/sabre-fiberglass-airplane-p-235.html",
+            "regularPrice": "$139.00",
+            "specialPrice": null
+        },
+        {
+            "name": "F/A-18 Hornet 64mm Ducted Fan RC Jet Silver Version PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/hc-f-18-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fa18-hornet-64mm-ducted-silver-version-p-282.html",
+            "regularPrice": "$129.92",
+            "specialPrice": null
+        },
+        {
+            "name": "F/A-18 Hornet 64mm EDF Electric R/C RC Jet Airplane RTF Blue Angel Version",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/hc-f-18-blue-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fa18-hornet-64mm-electric-airplane-blue-angel-version-p-136.html",
+            "regularPrice": "$186.96",
+            "specialPrice": null
+        },
+        {
+            "name": "F/A-18 Hornet 64mm EDF Electric R/C RC Jet Airplane RTF Silver",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/hc-f-18-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/fa18-hornet-64mm-electric-airplane-silver-p-135.html",
+            "regularPrice": "$186.96",
+            "specialPrice": null
+        },
+        {
+            "name": "F4 Phantom 64MM Electric Ducted Fan Jet EDF� Ready to Fly Powered by Brushless Motor",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f4-60mm-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/phantom-64mm-electric-ducted-edf -ready-powered-brushless-motor-p-150.html",
+            "regularPrice": "$169.96",
+            "specialPrice": null
+        },
+        {
+            "name": "F6F Hellcat 4-Channel Ready-to-Fly Electric RC Airplane Powered by Brushless Motor/LIPO Battery",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f6f-riccs-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/hellcat-4channel-readytofly-electric-airplane-powered-brushless-motorlipo-battery-p-158.html",
+            "regularPrice": "$149.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Flycat 90 60'' RC Prop Jet ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/flycat-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/flycat-prop-p-309.html",
+            "regularPrice": "$199.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Fokker 46 54'' Nitro Gas RC Airplane Plane ARF Kit",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/richmodel_fokker_46_400.JPG",
+            "pageUrl": "http://www.generalhobby.com/fokker-nitro-airplane-plane-p-29.html",
+            "regularPrice": "$169.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Fokker DR-1 90 55\" Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/fokker-dr-1-55-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/fokker-nitro-airplane-p-76.html",
+            "regularPrice": "$189.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Freewing F6F 39'' EPO Electric RC Ariplane RTF Ready-To-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/f6f-freewing-rtf-11a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/freewing-electric-ariplane-readytofly-p-854.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Giles 202 50cc 75.9'' Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/giles202-50cc-7-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/giles-50cc-nitro-airplane-p-177.html",
+            "regularPrice": "$279.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Hero Eagle 100 EDF Fiberglass 71'' RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/hero-eagle-101.jpg",
+            "pageUrl": "http://www.generalhobby.com/hero-eagle-fiberglass-airplane-p-234.html",
+            "regularPrice": "$199.92",
+            "specialPrice": null
+        },
+        {
+            "name": "JAS 39 GRIPEN 64MM Electric Ducted Fan Jet Kit Package",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/jas-39-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/gripen-64mm-electric-ducted-package-p-151.html",
+            "regularPrice": "$45.92",
+            "specialPrice": null
+        },
+        {
+            "name": "L-39 2.4G Ready-To-Fly Electric Brushless EDF RC Jet AIrplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/l-39-fms-wjite-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/readytofly-electric-brushless-airplane-p-138.html",
+            "regularPrice": "$169.96",
+            "specialPrice": null
+        },
+        {
+            "name": "L-39 2.4G Ready-To-Fly Electric Brushless EDF RC Jet Airplane Blue",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/L-39-blue-fms-24g-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/readytofly-electric-brushless-airplane-blue-p-139.html",
+            "regularPrice": "$169.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Lightning Dart Flying Wing 46 70'' Nitro/Electric ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lightning-dart-11-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/lightning-dart-flying-wing-nitroelectric-p-442.html",
+            "regularPrice": "$159.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Long-EZ 46 57'' RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/long-ez-60-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/longez-airplane-p-487.html",
+            "regularPrice": "$169.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Messerschmitt ME-109 RC 4-Ch Electric Ready to Fly RTF Airplane (Gray Version)",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/lanyu-tw-749-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/messerschmitt-me109-electric-ready-airplane-gray-version-p-141.html",
+            "regularPrice": "$129.00",
+            "specialPrice": null
+        },
+        {
+            "name": "MiG-29 Twin(2) 55mm EDF Powered by Brushless Motor, Speed Up To 90MPH PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/hc-mig-29-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mig29-twin2-55mm-powered-brushless-motor-speed-90mph-p-280.html",
+            "regularPrice": "$149.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Mirage 2000 Ready-To-Fly 64mm EDF Electric RC Jet Airplane Powered by Brushless Motor and LIPO Battery",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mirage-2000-riccs-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mirage-2000-readytofly-64mm-electric-airplane-powered-brushless-motor-lipo-battery-p-154.html",
+            "regularPrice": "$189.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Mirage 4000 70mm EDF RC Jet RTF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/mirage-4000-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mirage-4000-70mm-p-285.html",
+            "regularPrice": "$189.92",
+            "specialPrice": null
+        },
+        {
+            "name": "OV-10E Bronco 15 48'' Nitro/Electric RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ov-10-w-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ov10e-bronco-nitroelectric-airplane-p-188.html",
+            "regularPrice": "$99.92",
+            "specialPrice": null
+        },
+        {
+            "name": "P-38 Lightning 52 - 90\" Twin Engine ARF RC Warbird Plane Green",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-38-90-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/lightning-twin-engine-warbird-plane-green-p-231.html",
+            "regularPrice": "$249.92",
+            "specialPrice": null
+        },
+        {
+            "name": "P-47 Thunderbolt 120 70'' Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-47-120-silver-70-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/thunderbolt-nitro-airplane-p-52.html",
+            "regularPrice": "$229.88",
+            "specialPrice": null
+        },
+        {
+            "name": "P-51 Mustang 4 Channel Warbird Ready to Fly 2.4Ghz 800mm Wingspan",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/airfield-p-51-rtf-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mustang-channel-warbird-ready-24ghz-800mm-wingspan-p-451.html",
+            "regularPrice": "$199.00",
+            "specialPrice": null
+        },
+        {
+            "name": "P-51 Mustang TW-748-2 Electric Remote Control Ready-to-Fly RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/tw-748-2-6-brushed-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/mustang-tw7482-electric-remote-control-readytofly-airplane-p-148.html",
+            "regularPrice": "$129.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Piper Cub J-3 40 Nitro Gas RC Airplane 71.5'' ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/j-3-40-71-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/piper-nitro-airplane-p-74.html",
+            "regularPrice": "$109.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Piper J-3 Cub 60 81'' Fuel/Electric RC Airplane ARF Yellow",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/j-3-60-y-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/piper-fuelelectric-airplane-yellow-p-185.html",
+            "regularPrice": "$159.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Piper J-3 Cub 60 Fuel/Electric 81'' RC Airplane ARF Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/j-3-60-r-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/piper-fuelelectric-airplane-p-187.html",
+            "regularPrice": "$129.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Piper J-3 Cub 60 Fuel/Electric 81'' RC Airplane ARF White",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/j-3-60-w-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/piper-fuelelectric-airplane-white-p-186.html",
+            "regularPrice": "$129.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Pitts 40 42'' Nitro Gas RC Bipe Biplane Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/pitts-40-42-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/pitts-nitro-bipe-biplane-airplane-p-105.html",
+            "regularPrice": "$119.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Richmodel Fong-3D Trainer RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/fong-3d-1.jpg",
+            "pageUrl": "http://www.generalhobby.com/richmodel-fong3d-trainer-airplane-p-445.html",
+            "regularPrice": "$89.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Rutan 74 Defiant Nitro Gas RC Airplane 65'' ARF White",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/rutan-74-defiant-65-white-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/rutan-defiant-nitro-airplane-white-p-66.html",
+            "regularPrice": "$179.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Spitfire 120 73'' Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/spitfire-120-73-balsa-240.JPG",
+            "pageUrl": "http://www.generalhobby.com/spitfire-nitro-airplane-p-54.html",
+            "regularPrice": "$189.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Spitfire 60 63'' Nitro RC Airplane ARF With Retracts",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/spitfire-60-6-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/spitfire-nitro-airplane-with-retracts-p-125.html",
+            "regularPrice": "$109.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Starfire 53'' Electric Ducted Fan RC Jet Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starfire-53-blue-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/starfire-electric-ducted-airplane-p-81.html",
+            "regularPrice": "$159.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Starfire 53'' Electric Ducted Fan RC Jet Airplane ARF Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starfire-53-red-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/starfire-electric-ducted-airplane-p-82.html",
+            "regularPrice": "$159.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax A-10 Warthog Thunderbold II V2 Aerobatic RC Jet Airplane 64mm EDF PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starmax-a-10-64mm-green-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-warthog-thunderbold-aerobatic-airplane-64mm-p-279.html",
+            "regularPrice": "$169.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax P-51 Mustang 1600mm/63in EPO RC Airplane PNP Dago Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starmax-p-51-1600mm-dago-red-image-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-mustang-1600mm63in-airplane-dago-p-276.html",
+            "regularPrice": "$239.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Starmax P-51 Mustang 1600mm/63in EPO RC Airplane Shangri La PNP",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/starmax-p-51-1600mm-shangri-la-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/starmax-mustang-1600mm63in-airplane-shangri-p-277.html",
+            "regularPrice": "$239.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Sukhoi Su-26 1.50 71in RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/su-26-30cc-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/sukhoi-su26-71in-airplane-p-248.html",
+            "regularPrice": "$239.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Super Falcon 120 63\" Nitro Gas RC AIrplane ARF Black",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/super_falcon-120-63-black-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/super-falcon-nitro-airplane-black-p-40.html",
+            "regularPrice": "$199.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Super Falcon 120 63'' Pusher Jet ARF US Flag",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/falcon-flag-rr.jpg",
+            "pageUrl": "http://www.generalhobby.com/super-falcon-pusher-flag-p-237.html",
+            "regularPrice": "$199.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Super Falcon 120 63'' Pusher Jet RC Airplane ARF White",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/super-falcon-white-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/super-falcon-pusher-airplane-white-p-160.html",
+            "regularPrice": "$199.96",
+            "specialPrice": null
+        },
+        {
+            "name": "T-38 Thunderbird Electric 64mm EDF RC Jet Airplane Plane Ready-to-Fly",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/t-38-riccs-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/thunderbird-electric-64mm-airplane-plane-readytofly-p-155.html",
+            "regularPrice": "$189.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate .46 42'' Nitro Gas RC BiPlane Airplane ARF Purple",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-46-purple-2-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ultimate-nitro-biplane-airplane-purple-p-169.html",
+            "regularPrice": "$119.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate .46 42'' Nitro Gas RC BiPlane Airplane ARF Yellow Strip",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-46-yellow1-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ultimate-nitro-biplane-airplane-yellow-strip-p-168.html",
+            "regularPrice": "$109.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate .46 42'' Nitro RC BiPlane Airplane ARF Blue",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-46-blue-3-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ultimate-nitro-biplane-airplane-blue-p-152.html",
+            "regularPrice": "$109.96",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate 46 42'' Nitro RC BiPlane Airplane ARF Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-46-42-red-1-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/ultimate-nitro-biplane-airplane-p-101.html",
+            "regularPrice": "$119.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate 46 42'' Nitro RC BiPlane Airplane ARF Yellow Star",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-46-42-yellow-1-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/ultimate-nitro-biplane-airplane-yellow-star-p-100.html",
+            "regularPrice": "$119.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate 50CC 71'' Bipe Biplan RC Airplane ARF Blue",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-50cc-blue-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ultimate-50cc-bipe-biplan-airplane-blue-p-244.html",
+            "regularPrice": "$329.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate 50CC 71'' Nitro RC Airplane ARF Purple",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-50cc-p-240-8.jpg",
+            "pageUrl": "http://www.generalhobby.com/ultimate-50cc-nitro-airplane-purple-p-261.html",
+            "regularPrice": "$329.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Ultimate 50CC 71'' Nitro RC Airplane ARF Yellow",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/ultimate-50cc-y-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/ultimate-50cc-nitro-airplane-yellow-p-311.html",
+            "regularPrice": "$329.92",
+            "specialPrice": null
+        },
+        {
+            "name": "X-UAV P-38 Lightning 1400mm/55.1'' EPO Electric RC Airplane with Retracts PNP Silver",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/p-38-x-1a-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/xuav-lightning-1400mm551-electric-airplane-with-retracts-silver-p-454.html",
+            "regularPrice": "$189.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Yak 54 3D 56'' RC Airplane ARF Blue",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-3d-blue-56-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/airplane-blue-p-226.html",
+            "regularPrice": "$139.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Yak 54 3D 56'' RC Airplane ARF Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak54-3Da-red-240-56.jpg",
+            "pageUrl": "http://www.generalhobby.com/yak-54-3d-56-rc-airplane-arf-red-p-192.html",
+            "regularPrice": "$139.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Yak 54 45.5'' Nitro/Electric RC Airplane Blue",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-3d-25-blue-r-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/nitroelectric-airplane-blue-p-228.html",
+            "regularPrice": "$69.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Yak 54 45.5'' Nitro/Electric RC Airplane Red",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak54-3D25-red-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/nitroelectric-airplane-p-227.html",
+            "regularPrice": "$69.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Yak 54 45.5'' Nitro/Electric RC Airplane Yellow",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/yak-54-yellow-black-25.jpg",
+            "pageUrl": "http://www.generalhobby.com/nitroelectric-airplane-yellow-p-229.html",
+            "regularPrice": "$69.92",
+            "specialPrice": null
+        },
+        {
+            "name": "Yak 54 Electric RC Airplane 380 40'' ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/Yak54-380-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/electric-airplane-p-428.html",
+            "regularPrice": "$99.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Zero Fighter Electric RC Airplane 37'' ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/zero-fighter-ep-37-400.JPG",
+            "pageUrl": "http://www.generalhobby.com/zero-fighter-electric-airplane-p-91.html",
+            "regularPrice": "$69.88",
+            "specialPrice": null
+        },
+        {
+            "name": "Zivko EDGE 540 46 52'' RC Airplane",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/edge-52-1.jpg",
+            "pageUrl": "http://www.generalhobby.com/zivko-edge-airplane-p-412.html",
+            "regularPrice": "$139.00",
+            "specialPrice": null
+        },
+        {
+            "name": "Zlin Z-50 120 70'' Nitro Gas RC Airplane ARF",
+            "soldOut": true,
+            "imageUrl": "http://www.generalhobby.com/images/products/z-50-120-1-240.jpg",
+            "pageUrl": "http://www.generalhobby.com/zlin-nitro-airplane-p-159.html",
+            "regularPrice": "$199.96",
+            "specialPrice": null
+        }
+    ]
+};
