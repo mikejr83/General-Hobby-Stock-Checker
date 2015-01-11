@@ -10,6 +10,7 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/fontawesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -57,55 +58,72 @@
 
     <div class="container">
       <div class="header">
-        <h3 class="text-muted">General Hobby Stock Checker</h3>
+        <h3 class="text-muted">General Hobby Stock Checker <a href="http://www.generalhobby.com" target="_blank" title="Go to General Hobby"><i class="fa fa-external-link"></i></a></h3>
       </div>
 
       <div class="jumbotron">
         <h1>What's In Stock?</h1>
         <p class="lead">Find out what you can spend your money on at GeneralHobby.com.</p>
       </div>
+      
+      
 	  
-	  <table ng-cloak ng-show="products" class="table table-striped">
-		<thead>
-			<tr>
-				<th>&nbsp;</th>
-				<th>Product</th>
-				<th>Price</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr ng-repeat="product in products | filter: {soldOut: false} | orderBy:orderProduct">
-				<td>
-					<a ng-href="{{product.pageUrl}}" target="_blank"><img class="productImage" ng-src="{{product.imageUrl}}" /></a>
-				</td>
-				<td>
-					<a ng-href="{{product.pageUrl}}" target="_blank">{{product.name}}</a>
-				</td>
-				<td>
-					<s ng-show="product.specialPrice">{{product.regularPrice}}</s>
-					<span ng-show="product.specialPrice">{{product.specialPrice}}</span>
-					<span ng-hide="product.specialPrice">{{product.regularPrice}}</span>
-				</td>
-			</tr>
-		</tbody>
-	  </table>
+	  <div ng-cloak ng-show="products">
+		  <div class="panel panel-default">
+			<div class="panel-heading">Filter</div>
+			<div class="panel-body">
+				<form class="form-inline">
+					<div class="form-group">
+						<input ng-model="productNameFilter" ng-change="filterChanged" type="text" class="form-control" placeholder="Product name" />
+					</div>
+					<div class="form-group" style="float: right;">
+						<input type="radio" class="form-control" ng-model="sortReverse" ng-value="false">Ascending</input>
+						<input type="radio" class="form-control" ng-model="sortReverse" ng-value="true">Descending</input>
+					</div>
+				</form>
+			</div>
+		  </div>
+		  
+		  <div>
+			<b>Total:</b> {{filtered.length}}
+		  </div>
+		  
+		  <table class="table table-striped">
+			<thead>
+				<tr>
+					<th>&nbsp;</th>
+					<th>Product</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="product in filtered = (products | filter:filterList) | orderBy:orderProduct:sortReverse">
+					<td>
+						<a ng-href="{{product.pageUrl}}" target="_blank"><img class="productImage" ng-src="{{product.imageUrl}}" /></a>
+					</td>
+					<td>
+						<a ng-href="{{product.pageUrl}}" target="_blank">{{product.name}}</a>
+					</td>
+					<td>
+						<s ng-show="product.specialPrice">{{product.regularPrice}}</s>
+						<span ng-show="product.specialPrice">{{product.specialPrice}}</span>
+						<span ng-hide="product.specialPrice">{{product.regularPrice}}</span>
+					</td>
+				</tr>
+			</tbody>
+		  </table>
+		  
+		<div>
+		<b>Total:</b> {{filtered.length}}
+		</div>
+	 </div>
 	  
-	  <!-- <ul ng-cloak ng-show="products" class="list-group">
-		<li class="list-group-item" ng-repeat="product in products | filter: {soldOut: false} | orderBy:orderProduct">
-			<a ng-href="{{product.pageUrl}}"><img class="productImage" ng-src="{{product.imageUrl}}" /></a>
-		
-			<a ng-href="{{product.pageUrl}}">{{product.name}}</a>
-			<s ng-show="product.specialPrice">{{product.regularPrice}}</s>
-			<span ng-show="product.specialPrice">{{product.specialPrice}}</span>
-			<span ng-hide="product.specialPrice">{{product.regularPrice}}</span>
-		</li>
-	</ul> -->
 	<div ng-cloak ng-hide="products" class="noProducts">
 		There are no products. Have you run <code>node index.js</code>?
 	</div>
 
       <div class="footer">
-        <p>Mike G.</p>
+        <p><i class="fa fa-heart" style="color: red;"></i> Mike G.</p>
       </div>
     </div>
 
