@@ -33,7 +33,13 @@ StockRequest.prototype = {
 
   sort: function (sortExpression) {
     //this.sortExpression = sortExpression || 'name';
+    if(sortExpression) {
+      var split = sortExpression.split(' ');
+      this.firebaseRef = this.firebaseRef.orderByChild(split[0] || 'name');
+    } else {
     this.firebaseRef = this.firebaseRef.orderByChild('name');
+    }
+
     return this;
   },
 
