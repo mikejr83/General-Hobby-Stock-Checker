@@ -7,6 +7,44 @@ var Firebase = require("firebase");
  * @docs        :: http://sailsjs.org/#!documentation/models
  */
 
+var StockRequest = function () {};
+StockRequest.prototype = {
+  firebaseRef: new Firebase(sails.config.globals.firebaseUrl).child('stock'),
+  whereFilter: null,
+  limitAmount: 30,
+  skipAmount: 0,
+  sortExpression: null,
+  execCallback: null,
+
+  where: function (filter) {
+    this.whereFilter = filter;
+    return this;
+  },
+
+  limit: function (limitAmount) {
+    this.firebaseRef = this.firebaseRef.limitToFirst(limitAmount);
+    return this;
+  },
+
+  skip: function (skipAmount) {
+    this.firebaseRef = this.firebaseRef.startAt(skipAmount);
+    return this;
+  },
+
+  sort: function (sortExpression) {
+    //this.sortExpression = sortExpression || 'name';
+    this.firebaseRef = this.firebaseRef.orderByChild('name');
+    return this;
+  },
+
+  exec: function (callback) {
+    this.firebaseRef.on('value', function(snapshot){
+      callback(null, snapshot.val());
+    });
+  }
+};
+
+
 module.exports = {
 
   attributes: {
@@ -27,11 +65,11 @@ module.exports = {
       required: true
     },
     regularPrice: {
-      type: 'string',
+      type: 'float',
       required: true
     },
     specialPrice: {
-      type: 'string',
+      type: 'float',
       required: true
     }
   },
@@ -40,7 +78,7 @@ module.exports = {
     this.createOrUpdate(obj, callback);
   },
 
-  createOrUpdate: function(obj, callback) {
+  createOrUpdate: function (obj, callback) {
     var firebaseRef = new Firebase(sails.config.globals.firebaseUrl + 'stock');
 
     firebaseRef.orderByChild('pageUrl').equalTo(obj.pageUrl).on('value', function (firebaseResult) {
@@ -53,15 +91,17 @@ module.exports = {
         // updating the data
         for (var key in data) {
           if (data.hasOwnProperty(key)) {
-            for (var prop in obj) {
-              if(obj.hasOwnProperty(prop)){
-                data[key][prop] = obj[prop];
-              }
-            }
+//            for (var prop in obj) {
+//              if (obj.hasOwnProperty(prop)) {
+//                data[key][prop] = obj[prop];
+//              }
+//            }
+            firebaseRef.child(key).set(obj);
           }
+
         }
 
-        firebaseRef.update(data);
+//        firebaseRef.update(data);
       }
 
       if (callback) {
@@ -70,5 +110,9 @@ module.exports = {
 
 
     });
+  },
+
+  find: function () {
+    return new StockRequest();
   }
 };
