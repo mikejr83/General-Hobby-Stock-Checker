@@ -75,10 +75,6 @@ module.exports = {
   },
 
   create: function (obj, callback) {
-    this.createOrUpdate(obj, callback);
-  },
-
-  createOrUpdate: function (obj, callback) {
     var firebaseRef = new Firebase(sails.config.globals.firebaseUrl + 'stock');
 
     firebaseRef.orderByChild('pageUrl').equalTo(obj.pageUrl).on('value', function (firebaseResult) {
@@ -87,21 +83,6 @@ module.exports = {
       if (!data) {
         // creating the data
         firebaseRef.push(obj);
-      } else {
-        // updating the data
-        for (var key in data) {
-          if (data.hasOwnProperty(key)) {
-//            for (var prop in obj) {
-//              if (obj.hasOwnProperty(prop)) {
-//                data[key][prop] = obj[prop];
-//              }
-//            }
-            firebaseRef.child(key).set(obj);
-          }
-
-        }
-
-//        firebaseRef.update(data);
       }
 
       if (callback) {
