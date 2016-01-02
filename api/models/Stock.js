@@ -14,6 +14,7 @@ StockRequest.prototype = {
   limitAmount: 30,
   skipAmount: 0,
   sortExpression: null,
+  sortDesc: false,
   execCallback: null,
 
   where: function (filter) {
@@ -22,29 +23,50 @@ StockRequest.prototype = {
   },
 
   limit: function (limitAmount) {
-    this.firebaseRef = this.firebaseRef.limitToFirst(limitAmount);
+    //this.firebaseRef = this.firebaseRef.limitToFirst(limitAmount);
+    this.limitAmount = limitAmount;
+
     return this;
   },
 
   skip: function (skipAmount) {
-    this.firebaseRef = this.firebaseRef.startAt(skipAmount);
+    //    this.firebaseRef = this.firebaseRef.startAt(skipAmount);
+    this.skipAmount = skipAmount;
     return this;
   },
 
   sort: function (sortExpression) {
-    //this.sortExpression = sortExpression || 'name';
-    if(sortExpression) {
+    //    this.sortExpression = sortExpression || 'name';
+    if (sortExpression) {
       var split = sortExpression.split(' ');
-      this.firebaseRef = this.firebaseRef.orderByChild(split[0] || 'name');
+      //this.firebaseRef = this.firebaseRef.orderByChild(split[0] || 'name');
+      this.sortExpression = split[0] || 'name';
+      if (split && split.length >= 2) {
+        this.sortDesc = split[1].toLowerCase().indexOf('desc') === 0;
+      }
     } else {
-    this.firebaseRef = this.firebaseRef.orderByChild('name');
+      //    this.firebaseRef = this.firebaseRef.orderByChild('name');
+      this.sortExpression = 'name';
     }
 
     return this;
   },
 
   exec: function (callback) {
-    this.firebaseRef.on('value', function(snapshot){
+
+    if (this.sortDesc) {
+      this.firebaseRef = this.firebaseRef
+        .orderByChild(this.sortExpression)
+        .limitToLast(this.limitAmount)
+        //.startAt(this.skipAmount);
+    } else {
+      this.firebaseRef = this.firebaseRef
+        .orderByChild(this.sortExpression)
+        .limitToFirst(this.limitAmount)
+        .startAt(this.skipAmount);
+    }
+
+    this.firebaseRef.on('value', function (snapshot) {
       callback(null, snapshot.val());
     });
   }
