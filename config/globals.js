@@ -60,4 +60,6 @@ module.exports.globals = {
   ****************************************************************************/
 
 	// models: true
+
+  firebaseUrl: 'https://popping-inferno-7946.firebaseio.com/'
 };
