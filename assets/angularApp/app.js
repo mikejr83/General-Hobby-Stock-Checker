@@ -1,4 +1,4 @@
 (function() {
-  var app = angular.module('GeneralApp', []);
+  var app = angular.module('GeneralApp', ['ngTable']);
 
 }())
