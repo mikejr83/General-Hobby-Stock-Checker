@@ -57,8 +57,7 @@ StockRequest.prototype = {
     if (this.sortDesc) {
       this.firebaseRef = this.firebaseRef
         .orderByChild(this.sortExpression)
-        .limitToLast(this.limitAmount)
-        //.startAt(this.skipAmount);
+        .limitToLast(this.limitAmount + this.skipAmount);
     } else {
       this.firebaseRef = this.firebaseRef
         .orderByChild(this.sortExpression)
