@@ -130,6 +130,12 @@ module.exports = {
 
   },
 
+  total: function (request, response) {
+    Stock.count(function (num) {
+      response.json(num);
+    });
+  },
+
   add: function (req, res) {
     var firebaseRef = new Firebase(sails.config.globals.firebaseUrl + 'classes'),
       params = req.body;
