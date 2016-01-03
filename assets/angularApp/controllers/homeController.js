@@ -1,4 +1,6 @@
 (function () {
+  'use strict';
+
   angular.module('GeneralApp')
     .controller('HomeController', ['$log', '$q', '$scope', 'NgTableParams', 'HomeService', function ($log, $q, $scope, NgTableParams, homeService) {
       var total = null;
@@ -12,8 +14,7 @@
         getData: function (params) {
           $log.info('getData', params);
           // ajax request to api
-          var deferred = $q.defer(),
-            promises = [],
+          var promises = [],
             pageResults = [];
 
           promises.push(homeService.loadStock(params.count(), (params.page() - 1) * params.count(), params.sorting())
@@ -31,7 +32,7 @@
 
           return $q.all(promises).then(function () {
             return pageResults;
-          }, function (error) {
+          }, function () {
             return [];
           });
 
@@ -39,4 +40,4 @@
         }
       });
   }]);
-}())
+}());

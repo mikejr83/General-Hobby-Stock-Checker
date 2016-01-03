@@ -1,7 +1,9 @@
 (function () {
-  var app = angular.module('GeneralApp', ['ngTable'])
-    .controller('MainController', ['$log', '$scope', function ($log, $scope) {
+  'use strict';
+  var app = angular.module('GeneralApp', ['ngTable']);
 
-      $scope.year = (new Date()).getFullYear();
+  app.controller('MainController', ['$log', '$scope', function ($log, $scope) {
+
+    $scope.year = (new Date()).getFullYear();
   }]);
-}())
+}());
