@@ -7,11 +7,14 @@
 
       this.loadStock = function (limit, skip, sort) {
         var deferred = $q.defer(),
-          stockUrl = new URI('/stock');
+          stockUrl = new URI('/stock'),
+          sortKeys = _.keys(sort),
+          sortValues = _.values(sort);
 
         stockUrl.search({
           limit: limit || 10,
-          skip: skip || 0
+          skip: skip || 0,
+          sort: sortKeys[0] + ' ' + sortValues[0]
         });
 
         $http.get(stockUrl.toString()).then(function (response) {

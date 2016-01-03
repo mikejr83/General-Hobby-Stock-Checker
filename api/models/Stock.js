@@ -53,7 +53,7 @@ StockRequest.prototype = {
   },
 
   exec: function (callback) {
-var firebaseRef = new Firebase(sails.config.globals.firebaseUrl).child('stock');
+    var firebaseRef = new Firebase(sails.config.globals.firebaseUrl).child('stock');
 
     if (this.sortDesc) {
       firebaseRef = firebaseRef
@@ -62,12 +62,35 @@ var firebaseRef = new Firebase(sails.config.globals.firebaseUrl).child('stock');
     } else {
       firebaseRef = firebaseRef
         .orderByChild(this.sortExpression)
-        .limitToFirst(this.limitAmount)
-        .startAt(this.skipAmount);
+        .limitToFirst(this.limitAmount + this.skipAmount);
+
+      if (this.skipAmount > 0) {
+        firebaseRef = firebaseRef.startAt(this.skipAmount);
+      }
     }
 
-    firebaseRef.on('value', function (snapshot) {
-      callback(null, snapshot.val());
+    var sortDesc = this.sortDesc,
+      limitAmount = this.limitAmount,
+      skipAmount = this.skipAmount;
+    firebaseRef.once('value', function (snapshot) {
+      var results = [],
+        count = 0;
+
+      if (sortDesc) {
+        snapshot.forEach(function (childSnapshot) {
+          if (count++ < limitAmount) {
+            results.push(childSnapshot.val());
+          }
+        });
+      } else {
+        snapshot.forEach(function (childSnapshot) {
+          if (count++ >= skipAmount) {
+            results.push(childSnapshot.val());
+          }
+        });
+      }
+
+      callback(null, results);
     });
   }
 };
