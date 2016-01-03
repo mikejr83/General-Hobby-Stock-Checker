@@ -40,6 +40,10 @@ var jsFilesToInject = [
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
 
+  'angularApp/app.js',
+
+  'angularApp/**/*.js',
+
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
   'js/**/*.js'
@@ -73,7 +77,3 @@ module.exports.jsFilesToInject = jsFilesToInject.map(function(path) {
 module.exports.templateFilesToInject = templateFilesToInject.map(function(path) {
   return 'assets/' + path;
 });
-
-console.log('sadfasdfa', jsFilesToInject.map(function(path) {
-  return '.tmp/public/' + path;
-}));

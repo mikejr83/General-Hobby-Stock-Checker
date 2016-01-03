@@ -9,7 +9,7 @@
 module.exports = function (grunt) {
 
   grunt.config.set('ngtemplates', {
-    MGMTApp: {
+    app: {
       src: 'assets/angularApp/**/*.html',
       dest: '.tmp/public/js/templateCache.js',
       options: {
