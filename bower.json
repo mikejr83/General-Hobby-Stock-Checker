@@ -11,5 +11,43 @@
     "angular-sanitize": "~1.4.8",
     "angular-cookies": "~1.4.8",
     "angular-animate": "~1.4.8"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/bootstrap.js",
+      "css": "dist/css/bootstrap.css",
+      "fonts": "dist/fonts/*.*"
+    },
+    "jquery": {
+      "js": "dist/jquery.min.*"
+    },
+    "angular": {
+      "js": "angular.js"
+    },
+    "angularfire": {
+      "js": "dist/angularfire.min.js"
+    },
+    "angular-route": {
+      "js": "angular-route.js"
+    },
+    "angular-animate": {
+      "js": "angular-animate.min.*"
+    },
+    "angular-cookies": {
+      "js": "angular-cookies.min.*"
+    },
+    "angular-sanitize": {
+      "js": "angular-sanitize.min.*"
+    },
+    "firebase": {
+      "js": "firebase.js"
+    },
+    "fontawesome": {
+      "css": "css/font-awesome.min.css",
+      "fonts": "fonts/*.*"
+    },
+    "modernizr": {
+      "js": "modernizr.js"
+    }
   }
 }

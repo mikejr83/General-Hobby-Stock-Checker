@@ -22,9 +22,20 @@ var cssFilesToInject = [
 // Client-side javascript files to inject in order
 // (uses Grunt-style wildcard/glob/splat expressions)
 var jsFilesToInject = [
-  
+
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
+
+  // Load the dependencies in order. Need jQuery and AngularJS before anything else.
+  'js/dependencies/modernizr/modernizr.js',
+  'js/dependencies/jquery/jquery.min.js',
+  'js/dependencies/angular/angular.js',
+  'js/dependencies/angular-animate/angular-animate.min.js',
+  'js/dependencies/angular-cookies/angular-cookies.js',
+  'js/dependencies/angular-sanitize/angular-sanitize.min.js',
+  'js/dependencies/angularfire/angularfire.min.js',
+  'js/dependencies/firebase/firebase.js',
+  'js/dependencies/bootstrap/bootstrap.js',
 
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
@@ -62,3 +73,7 @@ module.exports.jsFilesToInject = jsFilesToInject.map(function(path) {
 module.exports.templateFilesToInject = templateFilesToInject.map(function(path) {
   return 'assets/' + path;
 });
+
+console.log('sadfasdfa', jsFilesToInject.map(function(path) {
+  return '.tmp/public/' + path;
+}));
