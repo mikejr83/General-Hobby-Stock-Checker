@@ -1,9 +1,17 @@
 (function () {
   angular.module('GeneralApp')
-    .service('HomeService', ['$log', '$http', function ($log, $http) {
+    .service('HomeService', ['$log', '$q', '$http', function ($log, $q, $http) {
 
       this.loadStock = function() {
-        return $http.get('/stock');
+        var deferred = $q.defer();
+
+        $http.get('/stock').then(function(response) {
+          deferred.resolve(_.toArray(response.data));
+        }, function (error) {
+          deferred.reject(error);
+        });
+
+        return deferred.promise;
       };
   }]);
 }())

@@ -32,11 +32,11 @@
 
   <div class="row">
   <table ng-table="tableParams" class="table table-bordered table-striped table-condensed">
-      <tr ng-repeat="row in $data track by row.id">
-        <td data-title="'Installation At'" filter="{installationAt: 'text'}" sortable="'installationAt'">{{row.installationAt}}</td>
-        <td data-title="'Admin Email'" filter="{adminEmail: 'text'}" sortable="'adminEmail'">{{row.adminEmail}}</td>
-        <td data-title="'Powered By'" filter="{poweredBy: 'text'}" sortable="'poweredBy'">{{row.poweredBy}}</td>
-        <td data-title="'Powered By Icon'" filter="{poweredByIcon: 'text'}" sortable="'poweredByIcon'">{{row.poweredByIcon}}</td>
+      <tr ng-repeat="row in $data track by $index">
+        <td data-title="''"><a ng-href="{{row.pageUrl}}" target="_blank"><img class="productImg" ng-src="{{row.imageUrl}}"/></a></td>
+        <td data-title="'Name'" sortable="'name'">{{row.name}}</td>
+        <td data-title="'Regular Price'" sortable="'regularPrice'">{{row.regularPrice | currency}}</td>
+        <td data-title="'Special Price'" sortable="'specialPrice'">{{row.specialPrice | currency}}</td>
       </tr>
     </table>
   </div>

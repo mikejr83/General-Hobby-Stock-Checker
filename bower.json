@@ -11,7 +11,9 @@
     "angular-sanitize": "~1.4.8",
     "angular-cookies": "~1.4.8",
     "angular-animate": "~1.4.8",
-    "ng-table": "~0.8.3"
+    "ng-table": "~0.8.3",
+    "lodash": "~3.10.1",
+    "urijs": "~1.17.0"
   },
   "exportsOverride": {
     "bootstrap": {
@@ -53,6 +55,12 @@
     "ng-table": {
       "css": "dist/ng-table.min.css",
       "js": "dist/ng-table.min.j*"
+    },
+    "lodash": {
+      "js": "lodash.min.js"
+    },
+    "urijs": {
+      "js": "src/URI.min.js"
     }
   }
 }
