@@ -16,6 +16,10 @@
           sort: sortKeys[0] + ' ' + sortValues[0]
         };
 
+      if (filter.soldOut !== undefined) {
+        filter.soldOut = filter.soldOut ? 1 : 0;
+      }
+
       _.extend(search, filter);
 
       stockUrl.search(search);

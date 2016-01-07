@@ -21,16 +21,14 @@ module.exports = {
       required: true
     },
     pageUrl: {
-      type: 'boolean',
+      type: 'string',
       required: true
     },
     regularPrice: {
-      type: 'float',
-      required: true
+      type: 'float'
     },
     specialPrice: {
-      type: 'float',
-      required: true
+      type: 'float'
     }
   }
 };

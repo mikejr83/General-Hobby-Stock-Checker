@@ -23,11 +23,11 @@ module.exports.connections = {
 
   /***************************************************************************
    *                                                                          *
-   * https://github.com/waterlinejs/sqlite3-adapter                                                 *
+   * https://github.com/waterlinejs/sqlite3-adapter                           *
    *                                                                          *
    ***************************************************************************/
   sqlitedb: {
-    adapter: 'waterline-sqlite',
+    adapter: 'waterline-sqlite3',
 
     /**
      * Location of file if type='disk'

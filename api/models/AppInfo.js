@@ -1,5 +1,3 @@
-var Firebase = require("firebase");
-
 /**
  * Stock.js
  *
@@ -11,14 +9,8 @@ module.exports = {
 
   attributes: {
     lastModified: {
-      type: 'datetime',
+      type: 'float',
       required: true
     }
-  },
-
-  update: function (id, obj, callback) {
-    new Firebase(sails.config.globals.firebaseUrl).update({
-      lastModified: obj.lastModified
-    });
   }
 };

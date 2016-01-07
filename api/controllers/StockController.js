@@ -3,7 +3,6 @@
 var colors = require('colors');
 var jsdom = require('jsdom');
 var jquery = require('jquery');
-var Firebase = require("firebase");
 var moment = require('moment');
 var Q = require('q');
 
@@ -15,7 +14,9 @@ var Q = require('q');
  */
 
 function buildData() {
-  var processdCount = 0,
+  var deferred = Q.defer(),
+    stock = [],
+    processdCount = 0,
     processedPage = 1,
     baseUrl = 'http://www.generalhobby.com/airplanes-browse-airplane-c-21_37.html',
     totalAvailable = 0,
@@ -62,7 +63,10 @@ function buildData() {
             item.specialPrice = parseFloat(item.specialPrice.replace('$', ''));
           }
 
-          Stock.create(item);
+          stock.push(Stock.findOrCreate({
+            pageUrl: item.pageUrl
+          }, item));
+          //          stock.push(item);
 
           if ($('DIV.product-shop SPAN:contains("Sold Out")', this).length) {
             return;
@@ -77,78 +81,74 @@ function buildData() {
         if (processdCount < totalCount) {
           var page = baseUrl + '?page=' + (++processedPage).toString() + '&sort=5a';
 
+          deferred.notify(page);
+
           requestConfig.url = page;
 
+
           jsdom.env(requestConfig);
+
+        } else {
+          console.log(stock.length);
+          //          var i = 0;
+          //          async.eachSeries(stock, function(sItem, callback) {
+          //            console.log(++i);
+          //            Stock.findOrCreate({pageUrl: sItem.pageUrl}, sItem, callback);
+          //          }, function(err) {
+          //            console.log('each done');
+          //            deferred.resolve();
+          //          });
+
+          Promise.all(stock).then(function () {
+            deferred.resolve();
+          }, function () {}, function () {
+            console.log(arguments)
+          });
+
         }
       }
     };
 
   jsdom.env(requestConfig);
-}
 
-function clearData(callback) {
-  var firebaseRef = new Firebase(sails.config.globals.firebaseUrl + 'stock');
-  firebaseRef.remove(callback);
+  return deferred.promise;
 }
 
 module.exports = {
   build: function (request, response) {
-    var firebaseRef = new Firebase(sails.config.globals.firebaseUrl + 'lastModified');
+    function doBuildData() {
+      buildData().then(function () {
+        console.log('finished!');
+        response.json(null);
+      }, function (error) {
+        console.log('Oh no! An error:', error);
+      }, function (notification) {
+        console.log(notification);
+      });
+    };
 
-    firebaseRef.once('value', function (dataSnapshot) {
-      var lastModified = dataSnapshot.val();
-      console.log('lastModified', lastModified);
-      if (!lastModified) {
-        clearData(function () {
-          buildData();
-        });
-
-        AppInfo.update(null, {
-          lastModified: moment().unix()
+    AppInfo.find().sort('lastModified desc').limit(1).then(function (result) {
+      console.log(result);
+      if (!result || result.length == 0) {
+        AppInfo.create({lastModified: moment().utc().valueOf()}).then(function(){
+        doBuildData();
         });
       } else {
-        var nextGet = moment.unix(lastModified);
-        nextGet.add(1, 'days');
-
-        if (moment().unix() > nextGet.unix()) {
-          console.log('updating', moment().unix(), nextGet.unix());
-          clearData(function () {
-            buildData();
-          });
-          AppInfo.update(null, {
-            lastModified: moment().unix()
-          });
-        } else {
-          console.log('nope')
+        var lastModified = moment.utc(result.lastModified);
+        console.log('moment.utc().diff(lastModified, days)', moment.utc().diff(lastModified, 'days'));
+        if (moment.utc().diff(lastModified, 'days') >= 1) {
+          doBuildData();
+        } else{
+          response.json(null);
         }
       }
-
-      response.json(null);
     });
 
 
   },
-
   total: function (request, response) {
-    Stock.count(function (num) {
-      response.json(num);
-    });
-  },
-
-  add: function (req, res) {
-    var firebaseRef = new Firebase(sails.config.globals.firebaseUrl + 'classes'),
-      params = req.body;
-    console.log('class add', params);
-
-    firebaseRef.push({
-      name: params.className
-    });
-
-    return res.end();
-  },
-
-  //  find: function() {
-  //    console.log('arg', arguments[0]);
-  //  }
+    Stock.count().then(function (a) {
+      response.json(a);
+    })
+  }
 };
