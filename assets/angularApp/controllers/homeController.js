@@ -5,6 +5,10 @@
     .controller('HomeController', ['$log', '$q', '$scope', 'NgTableParams', 'HomeService', function ($log, $q, $scope, NgTableParams, homeService) {
       var total = null;
 
+      $scope.filter = {
+        soldOut: false
+      };
+
       $scope.tableParams = new NgTableParams({
         count: 10,
         sorting: {
@@ -17,7 +21,7 @@
           var promises = [],
             pageResults = [];
 
-          promises.push(homeService.loadStock(params.count(), (params.page() - 1) * params.count(), params.sorting())
+          promises.push(homeService.loadStock($scope.filter, params.count(), (params.page() - 1) * params.count(), params.sorting())
             .then(function (results) {
               $log.info('load stock done', results);
               pageResults = results;
@@ -38,6 +42,16 @@
 
           //          return deferred.promise;
         }
+      });
+
+
+
+      $scope.$watch('filter.soldOut', function (newVal, oldVal) {
+        if (newVal != oldVal) {
+          $scope.tableParams.reload();
+        }
+
+        console.log('adfasdafd');
       });
   }]);
 }());

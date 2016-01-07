@@ -31,10 +31,21 @@
   </div>
 
   <div class="row">
-  <table ng-table="tableParams" class="table table-bordered table-striped table-condensed">
+    <div class="form-group">
+      <label>
+        <input type="checkbox" ng-model="filter.soldOut">Show Sold Out Items</input>
+      </label>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <table ng-table="tableParams" class="table table-bordered table-striped table-condensed">
       <tr ng-repeat="row in $data track by $index">
-        <td data-title="''"><a ng-href="{{row.pageUrl}}" target="_blank"><img class="productImg" ng-src="{{row.imageUrl}}"/></a></td>
-        <td data-title="'Name'" sortable="'name'">{{row.name}}</td>
+        <td data-title="''">
+          <a ng-href="{{row.pageUrl}}" target="_blank"><img class="productImg" ng-src="{{row.imageUrl}}" /></a>
+        </td>
+        <td data-title="'Name'" sortable="'name'"><span class="productName" ng-class="{'text-danger': row.soldOut, 'soldOut': row.soldOut}">{{row.name}}</span> <span class="text-danger" ng-show="row.soldOut"><strong>Sold out</strong></span></td>
         <td data-title="'Regular Price'" sortable="'regularPrice'">{{row.regularPrice | currency}}</td>
         <td data-title="'Special Price'" sortable="'specialPrice'">{{row.specialPrice | currency}}</td>
       </tr>

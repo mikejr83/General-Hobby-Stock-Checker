@@ -1,4 +1,11 @@
-table .productImg {
-  width: 240px;
-  height: auto;
+table {
+  .productImg {
+    width: 240px;
+    height: auto;
+  }
+  .productName {
+    &.soldOut {
+      text-decoration: line-through;
+    }
+  }
 }

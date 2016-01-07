@@ -1,4 +1,5 @@
 var Firebase = require("firebase");
+var _ = require("lodash");
 
 /**
  * Stock.js
@@ -53,45 +54,91 @@ StockRequest.prototype = {
   },
 
   exec: function (callback) {
-    var firebaseRef = new Firebase(sails.config.globals.firebaseUrl).child('stock');
-
-    if (this.sortDesc) {
-      firebaseRef = firebaseRef
-        .orderByChild(this.sortExpression)
-        .limitToLast(this.limitAmount + this.skipAmount);
-    } else {
-      firebaseRef = firebaseRef
-        .orderByChild(this.sortExpression)
-        .limitToFirst(this.limitAmount + this.skipAmount);
-
-      if (this.skipAmount > 0) {
-        firebaseRef = firebaseRef.startAt(this.skipAmount);
-      }
-    }
-
-    var sortDesc = this.sortDesc,
+    var firebaseRef = new Firebase(sails.config.globals.firebaseUrl).child('stock'),
+      sortExpression = this.sortExpression,
       limitAmount = this.limitAmount,
-      skipAmount = this.skipAmount;
-    firebaseRef.once('value', function (snapshot) {
-      var results = [],
-        count = 0;
+      skipAmount = this.skipAmount,
+      sortDesc = this.sortDesc,
+      whereFilter = this.whereFilter;
 
-      if (sortDesc) {
-        snapshot.forEach(function (childSnapshot) {
-          if (count++ < limitAmount) {
-            results.push(childSnapshot.val());
-          }
-        });
-      } else {
-        snapshot.forEach(function (childSnapshot) {
-          if (count++ >= skipAmount) {
-            results.push(childSnapshot.val());
-          }
-        });
-      }
+    firebaseRef.orderByChild(_.keys(this.whereFilter)[0])
+      .equalTo(_.values(this.whereFilter)[0])
+      .once('value', function (snapshot) {
+        var ref = snapshot.ref();
+        if (sortDesc) {
+          ref = ref
+            .orderByChild(sortExpression)
+            .limitToLast(limitAmount + skipAmount);
+        } else {
+          ref = ref
+            .orderByChild(sortExpression)
+            .limitToFirst(limitAmount + skipAmount);
 
-      callback(null, results);
-    });
+          if (this.skipAmount > 0) {
+            ref = ref.startAt(skipAmount);
+          }
+        }
+
+        ref.once('value', function (snapshot) {
+          var results = [],
+            count = 0;
+
+          if (sortDesc) {
+            snapshot.forEach(function (childSnapshot) {
+              if (count++ < limitAmount) {
+                results.push(childSnapshot.val());
+              }
+            });
+          } else {
+            snapshot.forEach(function (childSnapshot) {
+              if (count++ >= skipAmount) {
+                results.push(childSnapshot.val());
+              }
+            });
+          }
+
+          callback(null, results);
+        });
+      });
+
+    //    if (this.sortDesc) {
+    //      firebaseRef = firebaseRef
+    //        .orderByChild(this.sortExpression)
+    //        .limitToLast(this.limitAmount + this.skipAmount);
+    //    } else {
+    //      firebaseRef = firebaseRef
+    //        .orderByChild(this.sortExpression)
+    //        .limitToFirst(this.limitAmount + this.skipAmount);
+    //
+    //      if (this.skipAmount > 0) {
+    //        firebaseRef = firebaseRef.startAt(this.skipAmount);
+    //      }
+    //    }
+
+//    var sortDesc = this.sortDesc,
+//      limitAmount = this.limitAmount,
+//      skipAmount = this.skipAmount,
+//      whereFilter = this.whereFilter;
+//    firebaseRef.once('value', function (snapshot) {
+//      var results = [],
+//        count = 0;
+//
+//      if (sortDesc) {
+//        snapshot.forEach(function (childSnapshot) {
+//          if (count++ < limitAmount) {
+//            results.push(childSnapshot.val());
+//          }
+//        });
+//      } else {
+//        snapshot.forEach(function (childSnapshot) {
+//          if (count++ >= skipAmount) {
+//            results.push(childSnapshot.val());
+//          }
+//        });
+//      }
+//
+//      callback(null, results);
+//    });
   }
 };
 

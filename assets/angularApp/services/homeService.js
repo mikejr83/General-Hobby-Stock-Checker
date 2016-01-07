@@ -5,31 +5,34 @@
 
   app.service('HomeService', ['$log', '$q', '$http', function ($log, $q, $http) {
 
-      this.loadStock = function (limit, skip, sort) {
-        var deferred = $q.defer(),
-          stockUrl = new URI('/stock'),
-          sortKeys = _.keys(sort),
-          sortValues = _.values(sort);
-
-        stockUrl.search({
+    this.loadStock = function (filter, limit, skip, sort) {
+      var deferred = $q.defer(),
+        stockUrl = new URI('/stock'),
+        sortKeys = _.keys(sort),
+        sortValues = _.values(sort),
+        search = {
           limit: limit || 10,
           skip: skip || 0,
           sort: sortKeys[0] + ' ' + sortValues[0]
-        });
+        };
 
-        $http.get(stockUrl.toString()).then(function (response) {
-          var resultsArray = _.toArray(response.data);
-          resultsArray = _.sortByOrder(resultsArray, _.keys(sort), _.values(sort));
-          deferred.resolve(resultsArray);
-        }, function (error) {
-          deferred.reject(error);
-        });
+      _.extend(search, filter);
 
-        return deferred.promise;
-      };
+      stockUrl.search(search);
 
-      this.stockTotal = function () {
-        return $http.get('/stock/total');
-      };
+      $http.get(stockUrl.toString()).then(function (response) {
+        var resultsArray = _.toArray(response.data);
+        resultsArray = _.sortByOrder(resultsArray, _.keys(sort), _.values(sort));
+        deferred.resolve(resultsArray);
+      }, function (error) {
+        deferred.reject(error);
+      });
+
+      return deferred.promise;
+    };
+
+    this.stockTotal = function () {
+      return $http.get('/stock/total');
+    };
   }]);
 }());
