@@ -13,7 +13,7 @@
         search = {
           limit: limit || 10,
           skip: skip || 0,
-          sort: sortKeys[0] + ' ' + sortValues[0]
+          sort: sortKeys.length > 0 && sortValues.length > 0 ? sortKeys[0] + ' ' + sortValues[0] : 'name asc'
         };
 
       if (filter.soldOut !== undefined && !filter.soldOut) {
@@ -37,8 +37,17 @@
       return deferred.promise;
     };
 
-    this.stockTotal = function () {
-      return $http.get('/stock/total');
+    this.stockTotal = function (soldOut) {
+      var url = new URI('/stock/total');
+
+      if (soldOut !== undefined && !soldOut) {
+        url.search({
+          soldOut:  '0'
+        });
+      }
+
+      return $http.get(url.toString());
+
     };
 
     this.build = function () {

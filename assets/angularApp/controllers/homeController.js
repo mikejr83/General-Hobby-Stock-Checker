@@ -5,9 +5,7 @@
     .controller('HomeController', ['$log', '$q', '$scope', 'NgTableParams', 'HomeService', function ($log, $q, $scope, NgTableParams, homeService) {
       var total = null;
 
-      io.socket.on('BUILDING', function (data) {
-        console.log('socket data', data);
-      });
+      $scope.totalStock = null;
 
       $scope.filter = {
         soldOut: false
@@ -27,16 +25,14 @@
 
           promises.push(homeService.loadStock(_.cloneDeep($scope.filter), params.count(), (params.page() - 1) * params.count(), params.sorting())
             .then(function (results) {
-              $log.info('load stock done', results);
               pageResults = results;
             }));
 
-          if (total === null) {
-            promises.push(homeService.stockTotal().then(function (results) {
-              $log.info('stock total done', results);
-              params.total(results.data);
-            }));
-          }
+
+          promises.push(homeService.stockTotal($scope.filter.soldOut).then(function (results) {
+            $log.info('stock total done', results);
+            params.total(results.data);
+          }));
 
           return $q.all(promises).then(function () {
             return pageResults;
@@ -56,6 +52,11 @@
         if (newVal != oldVal) {
           $scope.tableParams.reload();
         }
+      });
+
+      homeService.stockTotal().then(function (results) {
+        $log.info('stock total done2222222222', results);
+        $scope.totalStock = results.data;
       });
   }]);
 }());

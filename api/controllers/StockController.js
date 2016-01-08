@@ -97,7 +97,7 @@ function buildData() {
           //            console.log('each done');
           //            deferred.resolve();
           //          });
-deferred.notify('Saving to DB...');
+          deferred.notify('Saving to DB...');
           Promise.all(stock).then(function () {
             deferred.resolve();
           }, function () {}, function () {
@@ -128,14 +128,16 @@ module.exports = {
 
     AppInfo.find().sort('lastModified desc').limit(1).then(function (result) {
       if (!result || result.length == 0) {
-        AppInfo.create({lastModified: moment().utc().valueOf()}).then(function(){
-        doBuildData();
+        AppInfo.create({
+          lastModified: moment().utc().valueOf()
+        }).then(function () {
+          doBuildData();
         });
       } else {
         var lastModified = moment.utc(result.lastModified);
         if (moment.utc().diff(lastModified, 'days') >= 1) {
           doBuildData();
-        } else{
+        } else {
           response.json(null);
         }
       }
@@ -144,8 +146,18 @@ module.exports = {
 
   },
   total: function (request, response) {
-    Stock.count().then(function (a) {
+    var query = null;
+
+    if (request.param('soldOut', null) === null) {
+      query = Stock.count();
+    } else {
+      query = Stock.count({
+        soldOut: false
+      });
+    }
+
+    query.then(function (a) {
       response.json(a);
-    })
+    });
   }
 };
