@@ -16,8 +16,10 @@
           sort: sortKeys[0] + ' ' + sortValues[0]
         };
 
-      if (filter.soldOut !== undefined) {
-        filter.soldOut = filter.soldOut ? 1 : 0;
+      if (filter.soldOut !== undefined && !filter.soldOut) {
+        filter.soldOut = 0;
+      } else if (filter.soldOut !== undefined) {
+        delete filter.soldOut;
       }
 
       _.extend(search, filter);
@@ -38,5 +40,9 @@
     this.stockTotal = function () {
       return $http.get('/stock/total');
     };
-  }]);
+
+    this.build = function () {
+      return $http.get('/stock/build');
+    }
+    }]);
 }());

@@ -5,6 +5,10 @@
     .controller('HomeController', ['$log', '$q', '$scope', 'NgTableParams', 'HomeService', function ($log, $q, $scope, NgTableParams, homeService) {
       var total = null;
 
+      io.socket.on('BUILDING', function (data) {
+        console.log('socket data', data);
+      });
+
       $scope.filter = {
         soldOut: false
       };
@@ -21,7 +25,7 @@
           var promises = [],
             pageResults = [];
 
-          promises.push(homeService.loadStock($scope.filter, params.count(), (params.page() - 1) * params.count(), params.sorting())
+          promises.push(homeService.loadStock(_.cloneDeep($scope.filter), params.count(), (params.page() - 1) * params.count(), params.sorting())
             .then(function (results) {
               $log.info('load stock done', results);
               pageResults = results;
@@ -40,18 +44,18 @@
             return [];
           });
 
-          //          return deferred.promise;
+          return deferred.promise;
         }
       });
 
-
+      $scope.build = function () {
+        homeService.build();
+      };
 
       $scope.$watch('filter.soldOut', function (newVal, oldVal) {
         if (newVal != oldVal) {
           $scope.tableParams.reload();
         }
-
-        console.log('adfasdafd');
       });
   }]);
 }());

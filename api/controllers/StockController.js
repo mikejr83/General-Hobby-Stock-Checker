@@ -66,7 +66,6 @@ function buildData() {
           stock.push(Stock.findOrCreate({
             pageUrl: item.pageUrl
           }, item));
-          //          stock.push(item);
 
           if ($('DIV.product-shop SPAN:contains("Sold Out")', this).length) {
             return;
@@ -81,7 +80,7 @@ function buildData() {
         if (processdCount < totalCount) {
           var page = baseUrl + '?page=' + (++processedPage).toString() + '&sort=5a';
 
-          deferred.notify(page);
+          deferred.notify('Parsing page: ' + page);
 
           requestConfig.url = page;
 
@@ -98,7 +97,7 @@ function buildData() {
           //            console.log('each done');
           //            deferred.resolve();
           //          });
-
+deferred.notify('Saving to DB...');
           Promise.all(stock).then(function () {
             deferred.resolve();
           }, function () {}, function () {
@@ -128,14 +127,12 @@ module.exports = {
     };
 
     AppInfo.find().sort('lastModified desc').limit(1).then(function (result) {
-      console.log(result);
       if (!result || result.length == 0) {
         AppInfo.create({lastModified: moment().utc().valueOf()}).then(function(){
         doBuildData();
         });
       } else {
         var lastModified = moment.utc(result.lastModified);
-        console.log('moment.utc().diff(lastModified, days)', moment.utc().diff(lastModified, 'days'));
         if (moment.utc().diff(lastModified, 'days') >= 1) {
           doBuildData();
         } else{
