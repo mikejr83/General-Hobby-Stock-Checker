@@ -20,16 +20,18 @@
   "homepage": "https://github.com/mikejr83/General-Hobby-Stock-Checker",
   "private": true,
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.10.0",
+    "npm": ">=1.4.0"
   },
   "devDependencies": {
+
+  },
+  "dependencies": {
     "apache-server-configs": "^2.7.1",
     "colors": "^1.0.3",
     "del": "^0.1.0",
     "jshint-stylish": "^1.0.0",
-    "opn": "^1.0.0"
-  },
-  "dependencies": {
+    "opn": "^1.0.0",
     "ejs": "~0.8.4",
     "express-helpers": "^1.3.2",
     "grunt": "0.4.2",

@@ -81,6 +81,7 @@ module.exports = {
    ***************************************************************************/
 
   environment: process.env.NODE_ENV || 'development',
+  explicitHost: process.env.OPENSHIFT_APP_DNS || "localhost",
   port: process.env.OPENSHIFT_NODEJS_PORT,
   host: process.env.OPENSHIFT_NODEJS_IP
 };
